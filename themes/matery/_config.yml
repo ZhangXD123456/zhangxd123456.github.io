@@ -609,7 +609,7 @@ background:
 # 说说 https://artitalk.js.org/
 artitalk:
   enable: false
-  appId: # xxxxx
+  appId: # xxxxxnn
   appKey: # xxxxxx
 
 # 哔哔功能配置
