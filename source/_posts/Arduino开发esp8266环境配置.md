@@ -3,8 +3,9 @@ title: Arduino开发ESP8266环境配置
 date: '2022-08-23 18:29'
 categories: 硬件
 tags:
-    - ESP8266
-    - 硬件编程
+  - ESP8266
+  - 硬件编程
+abbrlink: 27333
 ---
 # Arduino开发ESP8266环境配置
 

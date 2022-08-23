@@ -4,13 +4,56 @@
   
     
     <entry>
+      <title>Arduino开发ESP8266环境配置</title>
+      <link href="/2022/08/2327333.html"/>
+      <url>/2022/08/2327333.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Arduino开发ESP8266环境配置"><a href="#Arduino开发ESP8266环境配置" class="headerlink" title="Arduino开发ESP8266环境配置"></a>Arduino开发ESP8266环境配置</h1><h2 id="一、添加-ESP8266-支持"><a href="#一、添加-ESP8266-支持" class="headerlink" title="一、添加 ESP8266 支持"></a>一、添加 ESP8266 支持</h2><p>首先从 <a href="https://www.arduino.cc/en/main/software">Arduino 官网</a> 下载最新版本的 <strong>Arduino IDE</strong> 软件并安装。<br> 安装完成以后，进入<strong>首选项</strong>（Preferences），找到<strong>附加开发板管理器地址</strong>（Additional Board Manager URLs），并在其后添加如下信息：<br> <code>http://arduino.esp8266.com/stable/package_esp8266com_index.json</code></p><p><img src="http://ezblog.gnway.cc/i/2022/08/23/6304a2ed3cb98.png"></p><p>之后点击<strong>工具</strong> - <strong>开发板</strong> - <strong>开发板管理器</strong>，进入开发板管理器界面：</p><p><img src="http://ezblog.gnway.cc/i/2022/08/23/6304a336832f3.png"></p><h2 id="二、找到-esp8266-并安装："><a href="#二、找到-esp8266-并安装：" class="headerlink" title="二、找到 esp8266 并安装："></a>二、找到 <em>esp8266</em> 并安装：</h2><p><img src="http://ezblog.gnway.cc/i/2022/08/23/6304a37033daf.png"></p><p>这里安装ESP8266需通过GitHub网络问题可能安装不成功。</p><p>安装完成后，重启 Arduino IDE 软件。在<strong>工具</strong> - <strong>开发板</strong>选项中即会看到 ESP8266 开发板的选项：</p><p><img src="http://ezblog.gnway.cc/i/2022/08/23/6304a3a5ca113.png"></p><h2 id="三、代码开发"><a href="#三、代码开发" class="headerlink" title="三、代码开发"></a>三、代码开发</h2><p><strong>注意事项</strong></p><p>例程程代码和实际开发板对应的引脚不一样，需找打对应的规则。如图：例程中D1对应8266开发板的GPIO 5对应数字是5</p><p><img src="http://ezblog.gnway.cc/i/2022/08/23/6304a3d194fd6.png"></p><h2 id="四、编译上传"><a href="#四、编译上传" class="headerlink" title="四、编译上传"></a>四、编译上传</h2><p><img src="http://ezblog.gnway.cc/i/2022/08/23/6304a40339b9b.jpeg"></p><p>1是编译、2是上传</p><p><strong>上传是需先将开发板重启然后按住FLASH等待出现connect字样后松开FLASH按键</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 硬件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ESP8266 </tag>
+            
+            <tag> 硬件编程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>ipad编程软件code的使用方法——特别是git同步问题</title>
       <link href="/2022/08/0434694.html"/>
       <url>/2022/08/0434694.html</url>
       
-        <content type="html"><![CDATA[<h1 id="iPad-code-app-使用"><a href="#iPad-code-app-使用" class="headerlink" title="iPad code app 使用"></a>iPad code app 使用</h1><h2 id="在-ipad-上进行编程可以使用-code-APP"><a href="#在-ipad-上进行编程可以使用-code-APP" class="headerlink" title="在 ipad 上进行编程可以使用 code APP"></a>在 ipad 上进行编程可以使用 code APP</h2><p><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb08bad3c8.png" alt="IMG_0216.png"><br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb3006912b.png" alt="IMG_0217.png"><br>    该软件支持 python、javascprits、html、c 等编程语言。</p><h2 id="code-使用过程的一些问题"><a href="#code-使用过程的一些问题" class="headerlink" title="code 使用过程的一些问题"></a>code 使用过程的一些问题</h2><h3 id="1-新建文件是不可以在命名前文件类型，因为先点选文件类型的话会自动创建-1-个-default-名字的文件。"><a href="#1-新建文件是不可以在命名前文件类型，因为先点选文件类型的话会自动创建-1-个-default-名字的文件。" class="headerlink" title="1.新建文件是不可以在命名前文件类型，因为先点选文件类型的话会自动创建 1 个 default 名字的文件。"></a>1.新建文件是不可以在命名前文件类型，因为先点选文件类型的话会自动创建 1 个 default 名字的文件。</h3><p><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb31c9520e.png" alt="IMG_0218.png"></p><h3 id="2-不能使用蓝牙鼠标进行多选，有时可以。"><a href="#2-不能使用蓝牙鼠标进行多选，有时可以。" class="headerlink" title="2.不能使用蓝牙鼠标进行多选，有时可以。"></a>2.不能使用蓝牙鼠标进行多选，有时可以。</h3><h3 id="3-从-GitHub-克隆文件仓库"><a href="#3-从-GitHub-克隆文件仓库" class="headerlink" title="3.从 GitHub 克隆文件仓库"></a>3.从 GitHub 克隆文件仓库</h3><pre><code>为了能够与 GitHub 进行同步，首先要在 GitHub 建立文件仓库 ，然后将文件仓库克隆到本地。</code></pre><p><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb37872c77.png" alt="IMG_0233.png"><br>    将文件库克隆到本地后，为了能够成功的 commit 、push、fetch，所以要在设置中的版本控制中添加作者身份和凭据。<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb39c3378d.png" alt="IMG_0232.png"><br>    作者身份根据需要自己添加，凭据中添加 GitHub 账号和 GitHub 个人访问令牌。<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb3bc366b3.png" alt="IMG_0231.png"></p><h3 id="4-code-提交-commit-的问题"><a href="#4-code-提交-commit-的问题" class="headerlink" title="4.code 提交 commit 的问题"></a>4.code 提交 commit 的问题</h3><p><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb3dc97699.png" alt="IMG_0234.png"><br>    code app 可以通过远吗管理功能将代码上传到 GitHub 进行版本控制。<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcba697489f.png" alt="IMG_0221.png"><br>    文件发生修改后，在源码管理页面的变更栏中会显示发生变化的文件，此时点击”+”，提交变更，会提示变更已经缓存。这时变更仅在本地缓存，随时可以撤销，要在上边的文本框中输入本次的更改注释，用来解释本次修改了哪些地方。<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcba697489f.png" alt="IMG_0221.png"></p><blockquote><p>注意 code app 更改注释不可以为空，否层将不能提交缓存。右下角会提示 commit can not be empty.<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcbe7d8e683.png" alt="IMG_0222.png"><br>    输入 commit 的注释后点击文本框下边的对号会提示 commit succeed，表示 commit 成功。</p></blockquote><h3 id="5-code-的-push-问题"><a href="#5-code-的-push-问题" class="headerlink" title="5.code 的 push 问题"></a>5.code 的 push 问题</h3><pre><code>提交缓存之后点击文本文本框下边的三个点可以看到 push 和 fetch 按钮。</code></pre><p><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcbe9dbeea8.png" alt="IMG_0224.png"></p><blockquote><p>注意如果设置中的凭据设置错误将会提示 too many redirects or authentication replays。<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcbecebd738.png" alt="IMG_0229.png"></p></blockquote><h3 id="6-code-app-的fetch-问题"><a href="#6-code-app-的fetch-问题" class="headerlink" title="6.code app 的fetch 问题"></a>6.code app 的fetch 问题</h3><pre><code>为了同步本地和 GitHub 仓库的文件，在更改本地文件前首先使用 fetch 将 GitHub 远端的文件拉到本地。成功后提示 fetch succeed。</code></pre><p><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcbe9dbeea8.png" alt="IMG_0224.png"><br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcbf14966fb.png" alt="IMG_0226.png"><br>    当成功将文件复制到本地后，长按界面左下角的 master，会弹出 checkout detached 界面。<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb3dc97699.png" alt="IMG_0234.png"><br>    成功后再次点击 checkout detached 页面的 origin&#x2F;master 分支就可以了。<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcbf7b8cd44.png" alt="IMG_0228.png"></p>]]></content>
+        <content type="html"><![CDATA[<!-- ---title: 基于Hexo的hexo-theme-matery主题搭建博客并优化date: 2019-10-03 14:25:00author: 悟尘img: /source/images/xxx.jpgtop: truecover: truecoverImg: /images/1.jpgpassword: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92toc: falsemathjax: falsesummary: 这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要categories: 工具tags:  - blog  - hexo---标题行示例--><h1 id="iPad-code-app-使用"><a href="#iPad-code-app-使用" class="headerlink" title="iPad code app 使用"></a>iPad code app 使用</h1><h2 id="在-ipad-上进行编程可以使用-code-APP"><a href="#在-ipad-上进行编程可以使用-code-APP" class="headerlink" title="在 ipad 上进行编程可以使用 code APP"></a>在 ipad 上进行编程可以使用 code APP</h2><p><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb08bad3c8.png" alt="IMG_0216.png"><br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb3006912b.png" alt="IMG_0217.png"><br>    该软件支持 python、javascprits、html、c 等编程语言。</p><h2 id="code-使用过程的一些问题"><a href="#code-使用过程的一些问题" class="headerlink" title="code 使用过程的一些问题"></a>code 使用过程的一些问题</h2><h3 id="1-新建文件是不可以在命名前文件类型，因为先点选文件类型的话会自动创建-1-个-default-名字的文件。"><a href="#1-新建文件是不可以在命名前文件类型，因为先点选文件类型的话会自动创建-1-个-default-名字的文件。" class="headerlink" title="1.新建文件是不可以在命名前文件类型，因为先点选文件类型的话会自动创建 1 个 default 名字的文件。"></a>1.新建文件是不可以在命名前文件类型，因为先点选文件类型的话会自动创建 1 个 default 名字的文件。</h3><p><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb31c9520e.png" alt="IMG_0218.png"></p><h3 id="2-不能使用蓝牙鼠标进行多选，有时可以。"><a href="#2-不能使用蓝牙鼠标进行多选，有时可以。" class="headerlink" title="2.不能使用蓝牙鼠标进行多选，有时可以。"></a>2.不能使用蓝牙鼠标进行多选，有时可以。</h3><h3 id="3-从-GitHub-克隆文件仓库"><a href="#3-从-GitHub-克隆文件仓库" class="headerlink" title="3.从 GitHub 克隆文件仓库"></a>3.从 GitHub 克隆文件仓库</h3><pre><code>为了能够与 GitHub 进行同步，首先要在 GitHub 建立文件仓库 ，然后将文件仓库克隆到本地。</code></pre><p><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb37872c77.png" alt="IMG_0233.png"><br>    将文件库克隆到本地后，为了能够成功的 commit 、push、fetch，所以要在设置中的版本控制中添加作者身份和凭据。<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb39c3378d.png" alt="IMG_0232.png"><br>    作者身份根据需要自己添加，凭据中添加 GitHub 账号和 GitHub 个人访问令牌。<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb3bc366b3.png" alt="IMG_0231.png"></p><h3 id="4-code-提交-commit-的问题"><a href="#4-code-提交-commit-的问题" class="headerlink" title="4.code 提交 commit 的问题"></a>4.code 提交 commit 的问题</h3><p><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb3dc97699.png" alt="IMG_0234.png"><br>    code app 可以通过远吗管理功能将代码上传到 GitHub 进行版本控制。<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcba697489f.png" alt="IMG_0221.png"><br>    文件发生修改后，在源码管理页面的变更栏中会显示发生变化的文件，此时点击”+”，提交变更，会提示变更已经缓存。这时变更仅在本地缓存，随时可以撤销，要在上边的文本框中输入本次的更改注释，用来解释本次修改了哪些地方。<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcba697489f.png" alt="IMG_0221.png"></p><blockquote><p>注意 code app 更改注释不可以为空，否层将不能提交缓存。右下角会提示 commit can not be empty.<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcbe7d8e683.png" alt="IMG_0222.png"><br>    输入 commit 的注释后点击文本框下边的对号会提示 commit succeed，表示 commit 成功。</p></blockquote><h3 id="5-code-的-push-问题"><a href="#5-code-的-push-问题" class="headerlink" title="5.code 的 push 问题"></a>5.code 的 push 问题</h3><pre><code>提交缓存之后点击文本文本框下边的三个点可以看到 push 和 fetch 按钮。</code></pre><p><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcbe9dbeea8.png" alt="IMG_0224.png"></p><blockquote><p>注意如果设置中的凭据设置错误将会提示 too many redirects or authentication replays。<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcbecebd738.png" alt="IMG_0229.png"></p></blockquote><h3 id="6-code-app-的fetch-问题"><a href="#6-code-app-的fetch-问题" class="headerlink" title="6.code app 的fetch 问题"></a>6.code app 的fetch 问题</h3><pre><code>为了同步本地和 GitHub 仓库的文件，在更改本地文件前首先使用 fetch 将 GitHub 远端的文件拉到本地。成功后提示 fetch succeed。</code></pre><p><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcbe9dbeea8.png" alt="IMG_0224.png"><br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcbf14966fb.png" alt="IMG_0226.png"><br>    当成功将文件复制到本地后，长按界面左下角的 master，会弹出 checkout detached 界面。<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb3dc97699.png" alt="IMG_0234.png"><br>    成功后再次点击 checkout detached 页面的 origin&#x2F;master 分支就可以了。<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcbf7b8cd44.png" alt="IMG_0228.png"></p>]]></content>
       
       
+      <categories>
+          
+          <category> ipad编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 编程 </tag>
+            
+            <tag> ipad </tag>
+            
+        </tags>
       
     </entry>
     
@@ -24,6 +67,22 @@
         <content type="html"><![CDATA[<h1 id="GitHub-搭建个人免费博客网站"><a href="#GitHub-搭建个人免费博客网站" class="headerlink" title="GitHub 搭建个人免费博客网站"></a>GitHub 搭建个人免费博客网站</h1><h2 id="第一-步-创建-New-repository"><a href="#第一-步-创建-New-repository" class="headerlink" title="第一 步 创建 New repository"></a>第一 步 创建 New repository</h2><p><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcf0769b779.jpeg"></p><h2 id="第二步-在-Repository-name-中输入网站的名字要使用-Owner-的小写。"><a href="#第二步-在-Repository-name-中输入网站的名字要使用-Owner-的小写。" class="headerlink" title="第二步 在 Repository name 中输入网站的名字要使用 Owner 的小写。"></a>第二步 在 Repository name 中输入网站的名字要使用 Owner 的小写。</h2><p><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcf0be27891.png"><br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcf1165ee16.png"><br>能看出来 Owner 的小写是一个特殊的仓库。成功后通过 <a href="https://zhangxd123456.github.io/">https://zhangxd123456.github.io</a> 可以访问自己的博客。目前还不可以，通过该地址访问提示 404 。</p><hr><blockquote><p>ps:这里注意，命名的时候应当是 zhangxd123456.github.io 而不是 zhangxd123456，如果命名错了可以从下图的位置修改，setting-&gt;General-&gt;Repository name<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcf15e7e455.png"><br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcf2c2a9705.png"></p></blockquote><hr><blockquote><p>ps：如果命名时没有按照规则比如命名为 zblog，输入网址 <a href="https://zblog.github.io/">https://zblog.github.io</a> 网址会跳转黄色网站。</p></blockquote><h2 id="第三步-初始化网站，在仓库-setting-属性中选择-pages-标签页初始化网站。初始化完成后地址变成了-https-zhangxd123456-github-io-zhangxd123456-，很奇怪。"><a href="#第三步-初始化网站，在仓库-setting-属性中选择-pages-标签页初始化网站。初始化完成后地址变成了-https-zhangxd123456-github-io-zhangxd123456-，很奇怪。" class="headerlink" title="第三步 初始化网站，在仓库 setting 属性中选择 pages 标签页初始化网站。初始化完成后地址变成了 https://zhangxd123456.github.io/zhangxd123456/，很奇怪。"></a>第三步 初始化网站，在仓库 setting 属性中选择 pages 标签页初始化网站。初始化完成后地址变成了 <a href="https://zhangxd123456.github.io/zhangxd123456/%EF%BC%8C%E5%BE%88%E5%A5%87%E6%80%AA%E3%80%82">https://zhangxd123456.github.io/zhangxd123456/，很奇怪。</a></h2><h2 id=""><a href="#" class="headerlink" title=""></a><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcf30809659.png"></h2><blockquote><p>注意：在命名 repository 名字的时候注意时 owner 小写+github.io。如果仅用 owner 小写则登陆地址将变为 <a href="https://owner/">https://owner</a> 小写.github.io&#x2F;owner 小写&#x2F;</p></blockquote>]]></content>
       
       
+      <categories>
+          
+          <category> ipad编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 编程 </tag>
+            
+            <tag> ipad </tag>
+            
+        </tags>
       
     </entry>
     

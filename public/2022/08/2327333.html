@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="About, ESP8266">
+    <meta name="keywords" content="Arduino开发ESP8266环境配置, ESP8266">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>About | E_Z的博客</title>
+    <title>Arduino开发ESP8266环境配置 | E_Z的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -311,12 +311,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">about</h1>
+                    <h1 class="description center-align post-title">Arduino开发ESP8266环境配置</h1>
                 </div>
             </div>
         </div>
@@ -430,12 +430,29 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/ESP8266/">
+                                <span class="chip bg-color">ESP8266</span>
+                            </a>
+                        
+                            <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
+                                <span class="chip bg-color">硬件编程</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E7%A1%AC%E4%BB%B6/" class="post-category">
+                                硬件
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -458,7 +475,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    0
+                    254
                 </div>
                 
 
@@ -490,7 +507,21 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h1 id="Arduino开发ESP8266环境配置"><a href="#Arduino开发ESP8266环境配置" class="headerlink" title="Arduino开发ESP8266环境配置"></a>Arduino开发ESP8266环境配置</h1><h2 id="一、添加-ESP8266-支持"><a href="#一、添加-ESP8266-支持" class="headerlink" title="一、添加 ESP8266 支持"></a>一、添加 ESP8266 支持</h2><p>首先从 <a target="_blank" rel="noopener" href="https://www.arduino.cc/en/main/software">Arduino 官网</a> 下载最新版本的 <strong>Arduino IDE</strong> 软件并安装。<br> 安装完成以后，进入<strong>首选项</strong>（Preferences），找到<strong>附加开发板管理器地址</strong>（Additional Board Manager URLs），并在其后添加如下信息：<br> <code>http://arduino.esp8266.com/stable/package_esp8266com_index.json</code></p>
+<p><img src="http://ezblog.gnway.cc/i/2022/08/23/6304a2ed3cb98.png"></p>
+<p>之后点击<strong>工具</strong> - <strong>开发板</strong> - <strong>开发板管理器</strong>，进入开发板管理器界面：</p>
+<p><img src="http://ezblog.gnway.cc/i/2022/08/23/6304a336832f3.png"></p>
+<h2 id="二、找到-esp8266-并安装："><a href="#二、找到-esp8266-并安装：" class="headerlink" title="二、找到 esp8266 并安装："></a>二、找到 <em>esp8266</em> 并安装：</h2><p><img src="http://ezblog.gnway.cc/i/2022/08/23/6304a37033daf.png"></p>
+<p>这里安装ESP8266需通过GitHub网络问题可能安装不成功。</p>
+<p>安装完成后，重启 Arduino IDE 软件。在<strong>工具</strong> - <strong>开发板</strong>选项中即会看到 ESP8266 开发板的选项：</p>
+<p><img src="http://ezblog.gnway.cc/i/2022/08/23/6304a3a5ca113.png"></p>
+<h2 id="三、代码开发"><a href="#三、代码开发" class="headerlink" title="三、代码开发"></a>三、代码开发</h2><p><strong>注意事项</strong></p>
+<p>例程程代码和实际开发板对应的引脚不一样，需找打对应的规则。如图：例程中D1对应8266开发板的GPIO 5对应数字是5</p>
+<p><img src="http://ezblog.gnway.cc/i/2022/08/23/6304a3d194fd6.png"></p>
+<h2 id="四、编译上传"><a href="#四、编译上传" class="headerlink" title="四、编译上传"></a>四、编译上传</h2><p><img src="http://ezblog.gnway.cc/i/2022/08/23/6304a40339b9b.jpeg"></p>
+<p>1是编译、2是上传</p>
+<p><strong>上传是需先将开发板重启然后按住FLASH等待出现connect字样后松开FLASH按键</strong></p>
+
                 
             </div>
             <hr/>
@@ -516,7 +547,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://zhangxd123456.github.io/about/index.html">https://zhangxd123456.github.io/about/index.html</a>
+                    <a href="https://zhangxd123456.github.io/2022/08/2327333.html">https://zhangxd123456.github.io/2022/08/2327333.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -553,7 +584,15 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
+                            
+                                <a href="/tags/ESP8266/">
+                                    <span class="chip bg-color">ESP8266</span>
+                                </a>
+                            
+                                <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
+                                    <span class="chip bg-color">硬件编程</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -726,13 +765,13 @@
                 <i class="far fa-dot-circle"></i>&nbsp;Current
             </div>
             <div class="card">
-                <a href="/about/index.html">
+                <a href="/2022/08/2327333.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="about">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="Arduino开发ESP8266环境配置">
                         
-                        <span class="card-title">about</span>
+                        <span class="card-title">Arduino开发ESP8266环境配置</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -747,13 +786,29 @@
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            EAST Z
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E7%A1%AC%E4%BB%B6/" class="post-category">
+                                    硬件
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/ESP8266/">
+                        <span class="chip bg-color">ESP8266</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
+                        <span class="chip bg-color">硬件编程</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -761,16 +816,16 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                Current&nbsp;<i class="far fa-dot-circle"></i>
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/about/index.html">
+                <a href="/2022/08/0434694.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="about">
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="ipad编程软件code的使用方法——特别是git同步问题">
                         
-                        <span class="card-title">about</span>
+                        <span class="card-title">ipad编程软件code的使用方法——特别是git同步问题</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -781,17 +836,36 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-23
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-04
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            EAST Z
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/ipad%E7%BC%96%E7%A8%8B/" class="post-category">
+                                    ipad编程
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E8%BD%AF%E4%BB%B6/">
+                        <span class="chip bg-color">软件</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%BC%96%E7%A8%8B/">
+                        <span class="chip bg-color">编程</span>
+                    </a>
+                    
+                    <a href="/tags/ipad/">
+                        <span class="chip bg-color">ipad</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>

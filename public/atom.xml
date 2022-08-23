@@ -6,7 +6,7 @@
   <link href="https://zhangxd123456.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhangxd123456.github.io/"/>
-  <updated>2022-08-22T03:03:37.974Z</updated>
+  <updated>2022-08-23T14:27:37.492Z</updated>
   <id>https://zhangxd123456.github.io/</id>
   
   <author>
@@ -17,23 +17,65 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Arduino开发ESP8266环境配置</title>
+    <link href="https://zhangxd123456.github.io/2022/08/2327333.html"/>
+    <id>https://zhangxd123456.github.io/2022/08/2327333.html</id>
+    <published>2022-08-23T10:29:00.000Z</published>
+    <updated>2022-08-23T14:27:37.492Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Arduino开发ESP8266环境配置&quot;&gt;&lt;a href=&quot;#Arduino开发ESP8266环境配置&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="硬件" scheme="https://zhangxd123456.github.io/categories/%E7%A1%AC%E4%BB%B6/"/>
+    
+    
+    <category term="ESP8266" scheme="https://zhangxd123456.github.io/tags/ESP8266/"/>
+    
+    <category term="硬件编程" scheme="https://zhangxd123456.github.io/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>ipad编程软件code的使用方法——特别是git同步问题</title>
     <link href="https://zhangxd123456.github.io/2022/08/0434694.html"/>
     <id>https://zhangxd123456.github.io/2022/08/0434694.html</id>
     <published>2022-08-03T16:02:00.000Z</published>
-    <updated>2022-08-22T03:03:37.974Z</updated>
+    <updated>2022-08-23T14:27:37.499Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;iPad-code-app-使用&quot;&gt;&lt;a href=&quot;#iPad-code-app-使用&quot; class=&quot;headerlink&quot; title=&quot;iPad code app 使用&quot;&gt;&lt;/a&gt;iPad code app 使用&lt;/h1&gt;&lt;h2</summary>
+    <summary type="html">&lt;!-- 
+---
+title: 基于Hexo的hexo-theme-matery主题搭建博客并优化
+date: 2019-10-03 14:25:00
+author: 悟尘
+img: /source/images/xxx.jpg
+top: true
+cover:</summary>
         
       
     
     
     
+    <category term="ipad编程" scheme="https://zhangxd123456.github.io/categories/ipad%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="软件" scheme="https://zhangxd123456.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+    <category term="编程" scheme="https://zhangxd123456.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="ipad" scheme="https://zhangxd123456.github.io/tags/ipad/"/>
     
   </entry>
   
@@ -42,7 +84,7 @@
     <link href="https://zhangxd123456.github.io/2022/08/019163.html"/>
     <id>https://zhangxd123456.github.io/2022/08/019163.html</id>
     <published>2022-08-01T04:46:00.000Z</published>
-    <updated>2022-08-22T03:03:37.978Z</updated>
+    <updated>2022-08-23T14:27:37.510Z</updated>
     
     
       
@@ -55,6 +97,14 @@
     
     
     
+    <category term="ipad编程" scheme="https://zhangxd123456.github.io/categories/ipad%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="软件" scheme="https://zhangxd123456.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+    <category term="编程" scheme="https://zhangxd123456.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="ipad" scheme="https://zhangxd123456.github.io/tags/ipad/"/>
     
   </entry>
   
