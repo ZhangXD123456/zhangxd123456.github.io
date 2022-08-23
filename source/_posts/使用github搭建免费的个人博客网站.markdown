@@ -2,6 +2,11 @@
 title: 使用github搭建免费的个人博客网站
 date: '2022-08-01 12:46'
 abbrlink: 9163
+categories: ipad编程
+tags:
+    - 软件
+    - 编程
+    - ipad
 ---
 # GitHub 搭建个人免费博客网站
 ## 第一 步 创建 New repository
