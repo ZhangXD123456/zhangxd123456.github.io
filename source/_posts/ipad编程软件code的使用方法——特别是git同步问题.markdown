@@ -1,6 +1,7 @@
 ---
 title: ipad编程软件code的使用方法——特别是git同步问题
-date: 2022-08-04 00:02
+date: '2022-08-04 00:02'
+abbrlink: 34694
 ---
 # iPad code app 使用
 ## 在 ipad 上进行编程可以使用 code APP
