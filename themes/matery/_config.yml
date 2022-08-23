@@ -4,22 +4,22 @@ menu:
   目录:
     url: /
     icon: fas fa-home
-  Tags:
+  标签:
     url: /tags
     icon: fas fa-tags
-  Categories:
+  分类:
     url: /categories
     icon: fas fa-bookmark
-  Archives:
+  归档:
     url: /archives
     icon: fas fa-archive
-  About:
+  关于:
     url: /about
     icon: fas fa-user-circle
-  Contact:
+  留言:
     url: /contact
     icon: fas fa-comments
-  Friends:
+  友链:
     url: /friends
     icon: fas fa-address-book
   # 二级菜单写法如下
