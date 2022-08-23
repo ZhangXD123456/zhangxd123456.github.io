@@ -1,3 +1,6 @@
+---
+abbrlink: 0
+---
 # Arduino开发ESP8266环境配置
 
 ## 一、添加 ESP8266 支持

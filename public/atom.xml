@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>E_Z的博客</title>
+  
+  <subtitle>努力迈往未来的人</subtitle>
+  <link href="https://zhangxd123456.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://zhangxd123456.github.io/"/>
+  <updated>2022-08-23T10:08:24.550Z</updated>
+  <id>https://zhangxd123456.github.io/</id>
+  
+  <author>
+    <name>EAST Z</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://zhangxd123456.github.io/2022/08/230.html"/>
+    <id>https://zhangxd123456.github.io/2022/08/230.html</id>
+    <published>2022-08-23T10:07:33.441Z</published>
+    <updated>2022-08-23T10:08:24.550Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Arduino开发ESP8266环境配置&quot;&gt;&lt;a href=&quot;#Arduino开发ESP8266环境配置&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ipad编程软件code的使用方法——特别是git同步问题</title>
+    <link href="https://zhangxd123456.github.io/2022/08/0434694.html"/>
+    <id>https://zhangxd123456.github.io/2022/08/0434694.html</id>
+    <published>2022-08-03T16:02:00.000Z</published>
+    <updated>2022-08-22T03:03:37.974Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;iPad-code-app-使用&quot;&gt;&lt;a href=&quot;#iPad-code-app-使用&quot; class=&quot;headerlink&quot; title=&quot;iPad code app 使用&quot;&gt;&lt;/a&gt;iPad code app 使用&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>使用github搭建免费的个人博客网站</title>
+    <link href="https://zhangxd123456.github.io/2022/08/019163.html"/>
+    <id>https://zhangxd123456.github.io/2022/08/019163.html</id>
+    <published>2022-08-01T04:46:00.000Z</published>
+    <updated>2022-08-22T03:03:37.978Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;GitHub-搭建个人免费博客网站&quot;&gt;&lt;a href=&quot;#GitHub-搭建个人免费博客网站&quot; class=&quot;headerlink&quot; title=&quot;GitHub 搭建个人免费博客网站&quot;&gt;&lt;/a&gt;GitHub 搭建个人免费博客网站&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
