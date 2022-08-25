@@ -6,7 +6,7 @@
   <link href="https://zhangxd123456.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhangxd123456.github.io/"/>
-  <updated>2022-08-23T14:29:03.256Z</updated>
+  <updated>2022-08-25T09:49:59.729Z</updated>
   <id>https://zhangxd123456.github.io/</id>
   
   <author>
@@ -15,6 +15,142 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ESP8266 驱动 1.44 寸屏幕（例程问题）</title>
+    <link href="https://zhangxd123456.github.io/2022/08/2536776.html"/>
+    <id>https://zhangxd123456.github.io/2022/08/2536776.html</id>
+    <published>2022-08-25T08:00:00.000Z</published>
+    <updated>2022-08-25T09:49:59.729Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;ESP8266驱动1-44寸TFT屏幕-例程问题&quot;&gt;&lt;a href=&quot;#ESP8266驱动1-44寸TFT屏幕-例程问题&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="ESP8266" scheme="https://zhangxd123456.github.io/categories/ESP8266/"/>
+    
+    
+    <category term="ESP8266" scheme="https://zhangxd123456.github.io/tags/ESP8266/"/>
+    
+    <category term="硬件编程" scheme="https://zhangxd123456.github.io/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ESP8266 windows 开发环境搭建</title>
+    <link href="https://zhangxd123456.github.io/2022/08/2557392.html"/>
+    <id>https://zhangxd123456.github.io/2022/08/2557392.html</id>
+    <published>2022-08-25T08:00:00.000Z</published>
+    <updated>2022-08-25T09:49:59.757Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;ESP8266-windows开发环境搭建&quot;&gt;&lt;a href=&quot;#ESP8266-windows开发环境搭建&quot; class=&quot;headerlink&quot; title=&quot;ESP8266 windows开发环境搭建&quot;&gt;&lt;/a&gt;ESP8266</summary>
+        
+      
+    
+    
+    
+    <category term="ESP8266" scheme="https://zhangxd123456.github.io/categories/ESP8266/"/>
+    
+    
+    <category term="ESP8266" scheme="https://zhangxd123456.github.io/tags/ESP8266/"/>
+    
+    <category term="硬件编程" scheme="https://zhangxd123456.github.io/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>什么是 FreeRTOS</title>
+    <link href="https://zhangxd123456.github.io/2022/08/2527629.html"/>
+    <id>https://zhangxd123456.github.io/2022/08/2527629.html</id>
+    <published>2022-08-25T08:00:00.000Z</published>
+    <updated>2022-08-25T09:49:59.754Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;什么是FreeRTOS&quot;&gt;&lt;a href=&quot;#什么是FreeRTOS&quot; class=&quot;headerlink&quot; title=&quot;什么是FreeRTOS&quot;&gt;&lt;/a&gt;什么是FreeRTOS&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;1.Free 即免费的，RTOS 全称是</summary>
+        
+      
+    
+    
+    
+    <category term="ESP8266" scheme="https://zhangxd123456.github.io/categories/ESP8266/"/>
+    
+    
+    <category term="ESP8266" scheme="https://zhangxd123456.github.io/tags/ESP8266/"/>
+    
+    <category term="硬件编程" scheme="https://zhangxd123456.github.io/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vscode 安装 ESP8266 开发环境</title>
+    <link href="https://zhangxd123456.github.io/2022/08/2534083.html"/>
+    <id>https://zhangxd123456.github.io/2022/08/2534083.html</id>
+    <published>2022-08-25T08:00:00.000Z</published>
+    <updated>2022-08-25T09:49:59.776Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;vscode开发esp8266环境配置&quot;&gt;&lt;a href=&quot;#vscode开发esp8266环境配置&quot; class=&quot;headerlink&quot; title=&quot;vscode开发esp8266环境配置&quot;&gt;&lt;/a&gt;vscode开发esp8266环境配置&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="ESP8266" scheme="https://zhangxd123456.github.io/categories/ESP8266/"/>
+    
+    
+    <category term="ESP8266" scheme="https://zhangxd123456.github.io/tags/ESP8266/"/>
+    
+    <category term="硬件编程" scheme="https://zhangxd123456.github.io/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ESP8266 固件下载以及 lua 电灯程序测试</title>
+    <link href="https://zhangxd123456.github.io/2022/08/2520574.html"/>
+    <id>https://zhangxd123456.github.io/2022/08/2520574.html</id>
+    <published>2022-08-25T08:00:00.000Z</published>
+    <updated>2022-08-25T09:49:59.760Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;ESP8266固件下载及lua点灯程序测试&quot;&gt;&lt;a href=&quot;#ESP8266固件下载及lua点灯程序测试&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="ESP8266" scheme="https://zhangxd123456.github.io/categories/ESP8266/"/>
+    
+    
+    <category term="ESP8266" scheme="https://zhangxd123456.github.io/tags/ESP8266/"/>
+    
+    <category term="硬件编程" scheme="https://zhangxd123456.github.io/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>Arduino开发ESP8266环境配置</title>
@@ -48,7 +184,7 @@
     <link href="https://zhangxd123456.github.io/2022/08/0434694.html"/>
     <id>https://zhangxd123456.github.io/2022/08/0434694.html</id>
     <published>2022-08-03T16:02:00.000Z</published>
-    <updated>2022-08-23T14:27:37.499Z</updated>
+    <updated>2022-08-25T09:49:59.774Z</updated>
     
     
       

@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="About, ESP8266 ipad">
+    <meta name="keywords" content="ESP8266 驱动 1.44 寸屏幕（例程问题）, ESP8266 ipad">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>About | E_Z的博客</title>
+    <title>ESP8266 驱动 1.44 寸屏幕（例程问题） | E_Z的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -311,12 +311,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">about</h1>
+                    <h1 class="description center-align post-title">ESP8266 驱动 1.44 寸屏幕（例程问题）</h1>
                 </div>
             </div>
         </div>
@@ -430,12 +430,29 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/ESP8266/">
+                                <span class="chip bg-color">ESP8266</span>
+                            </a>
+                        
+                            <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
+                                <span class="chip bg-color">硬件编程</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/ESP8266/" class="post-category">
+                                ESP8266
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -444,21 +461,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2022-08-23
+                    2022-08-25
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2022-08-23
+                    2022-08-25
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    0
+                    48
                 </div>
                 
 
@@ -490,7 +507,21 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h1 id="ESP8266驱动1-44寸TFT屏幕-例程问题"><a href="#ESP8266驱动1-44寸TFT屏幕-例程问题" class="headerlink" title="ESP8266驱动1.44寸TFT屏幕(例程问题)"></a>ESP8266驱动1.44寸TFT屏幕(例程问题)</h1><h2 id="一、接线说明"><a href="#一、接线说明" class="headerlink" title="一、接线说明"></a>一、接线说明</h2><!-- ![1.44寸TFT与8266接线说明](1.44%E5%AF%B8TFT%E4%B8%8E8266%E6%8E%A5%E7%BA%BF%E8%AF%B4%E6%98%8E.jpg) -->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073a339c5e9.jpeg" alt="1.44寸TFT与8266接线说明"></p>
+<!--![8266与1.44TFT屏幕引脚对应](8266%E4%B8%8E1.44TFT%E5%B1%8F%E5%B9%95%E5%BC%95%E8%84%9A%E5%AF%B9%E5%BA%94.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073ae44edf9.jpeg" alt="8266与1.44TFT屏幕引脚对应"></p>
+<h2 id="二、引脚对应"><a href="#二、引脚对应" class="headerlink" title="二、引脚对应"></a>二、引脚对应</h2><!--![6875152-d2e17763dffd54ec](6875152-d2e17763dffd54ec.png)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/23/6304a3d194fd6.png" alt="引脚对应图"></p>
+<p>D1 — 5</p>
+<p>D2 — 4</p>
+<p>D3 — 0</p>
+<h2 id="三、修改例程"><a href="#三、修改例程" class="headerlink" title="三、修改例程"></a>三、修改例程</h2><!--![例程](%E4%BE%8B%E7%A8%8B.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073bdf3ddb6.jpeg" alt="例程"></p>
+<p>将D1、D2、D3改成5、4、0然后编译上传即可</p>
+<!--![例程修改后](%E4%BE%8B%E7%A8%8B%E4%BF%AE%E6%94%B9%E5%90%8E.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073bfaf191c.jpeg" alt="例程修改后.jpeg"></p>
+
                 
             </div>
             <hr/>
@@ -516,7 +547,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://zhangxd123456.github.io/about/index.html">https://zhangxd123456.github.io/about/index.html</a>
+                    <a href="https://zhangxd123456.github.io/2022/08/2536776.html">https://zhangxd123456.github.io/2022/08/2536776.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -553,7 +584,15 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
+                            
+                                <a href="/tags/ESP8266/">
+                                    <span class="chip bg-color">ESP8266</span>
+                                </a>
+                            
+                                <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
+                                    <span class="chip bg-color">硬件编程</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -726,13 +765,13 @@
                 <i class="far fa-dot-circle"></i>&nbsp;Current
             </div>
             <div class="card">
-                <a href="/about/index.html">
+                <a href="/2022/08/2536776.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="about">
+                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="ESP8266 驱动 1.44 寸屏幕（例程问题）">
                         
-                        <span class="card-title">about</span>
+                        <span class="card-title">ESP8266 驱动 1.44 寸屏幕（例程问题）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -743,17 +782,33 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-23
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-25
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            EAST Z
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/ESP8266/" class="post-category">
+                                    ESP8266
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/ESP8266/">
+                        <span class="chip bg-color">ESP8266</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
+                        <span class="chip bg-color">硬件编程</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -761,16 +816,16 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                Current&nbsp;<i class="far fa-dot-circle"></i>
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/about/index.html">
+                <a href="/2022/08/2557392.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="about">
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="ESP8266 windows 开发环境搭建">
                         
-                        <span class="card-title">about</span>
+                        <span class="card-title">ESP8266 windows 开发环境搭建</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -781,17 +836,32 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-23
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-25
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            EAST Z
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/ESP8266/" class="post-category">
+                                    ESP8266
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/ESP8266/">
+                        <span class="chip bg-color">ESP8266</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
+                        <span class="chip bg-color">硬件编程</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>

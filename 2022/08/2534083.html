@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="About, ESP8266 ipad">
+    <meta name="keywords" content="vscode 安装 ESP8266 开发环境, ESP8266 ipad">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>About | E_Z的博客</title>
+    <title>vscode 安装 ESP8266 开发环境 | E_Z的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -311,12 +311,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">about</h1>
+                    <h1 class="description center-align post-title">vscode 安装 ESP8266 开发环境</h1>
                 </div>
             </div>
         </div>
@@ -430,12 +430,29 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/ESP8266/">
+                                <span class="chip bg-color">ESP8266</span>
+                            </a>
+                        
+                            <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
+                                <span class="chip bg-color">硬件编程</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/ESP8266/" class="post-category">
+                                ESP8266
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -444,21 +461,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2022-08-23
+                    2022-08-25
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2022-08-23
+                    2022-08-25
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    0
+                    327
                 </div>
                 
 
@@ -490,7 +507,37 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h1 id="vscode开发esp8266环境配置"><a href="#vscode开发esp8266环境配置" class="headerlink" title="vscode开发esp8266环境配置"></a>vscode开发esp8266环境配置</h1><h2 id="一、安装VSCODE"><a href="#一、安装VSCODE" class="headerlink" title="一、安装VSCODE"></a>一、安装VSCODE</h2><h2 id="二、安装VScode-arduino插件"><a href="#二、安装VScode-arduino插件" class="headerlink" title="二、安装VScode-arduino插件"></a>二、安装VScode-arduino插件</h2><!--![安装arduino插件](%E5%AE%89%E8%A3%85arduino%E6%8F%92%E4%BB%B6.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073c441f4b0.jpeg" alt="安装arduino插件"></p>
+<h2 id="三、配置arduino环境"><a href="#三、配置arduino环境" class="headerlink" title="三、配置arduino环境"></a>三、配置arduino环境</h2><p>在设置中搜索arduino，将Arduino：Path的值改成自己的arduino安装目录。</p>
+<!--![arduino插件设置](arduino%E6%8F%92%E4%BB%B6%E8%AE%BE%E7%BD%AE.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073c8f5ec79.jpeg" alt="arduino插件设置"></p>
+<h2 id="四、创建工程"><a href="#四、创建工程" class="headerlink" title="四、创建工程"></a>四、创建工程</h2><h3 id="1-创建一个文件夹"><a href="#1-创建一个文件夹" class="headerlink" title="1.创建一个文件夹"></a>1.创建一个文件夹</h3><h3 id="2-创建-ino文件"><a href="#2-创建-ino文件" class="headerlink" title="2.创建.ino文件"></a>2.创建.ino文件</h3><h3 id="3-修改配置"><a href="#3-修改配置" class="headerlink" title="3.修改配置"></a>3.修改配置</h3><p>在自己的目录下创建.ino文件或打开例程一般会自动创建.vscode文件夹，里面包括三个文件，分别是arduino.json、c_cpp_properties.json、setting.json。其中c_cpp_properties.json主要用来配置程序的引用，.ino文件中的include的头文件必须在c_cpp_properties.json中的includepath属性中配置</p>
+<!--![c_cpp_properties文件配置](c_cpp_properties%E6%96%87%E4%BB%B6%E9%85%8D%E7%BD%AE.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073ce623cc4.jpeg" alt="c_cpp_properties文件配置"></p>
+<p><strong>注：</strong>引用头文件后还可能报错，可以在setting中进行如下设置</p>
+<!--![报错](%E6%8A%A5%E9%94%99.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073d136b3a4.jpeg" alt="报错"></p>
+<!--![setting设置](setting%E8%AE%BE%E7%BD%AE.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073df002394.jpeg" alt="setting设置"></p>
+<h3 id="4-编译上传"><a href="#4-编译上传" class="headerlink" title="4.编译上传"></a>4.编译上传</h3><p>在窗口右下角 点击<Select Board Type>选择板子类型和<Select Serial Port>选择串口</p>
+<!--![选择板子和串口](%E9%80%89%E6%8B%A9%E6%9D%BF%E5%AD%90%E5%92%8C%E4%B8%B2%E5%8F%A3.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073e122433d.jpeg" alt="选择板子和串口"></p>
+<p><strong>注：</strong> arduino插件0.4.6版本有bug进入<Select Board Type>后无法选择板子，改下载0.4.5版本重启后正常。</p>
+<!--![选择板子](%E9%80%89%E6%8B%A9%E6%9D%BF%E5%AD%90.jpg)
+-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073e2dd7c6e.jpeg" alt="选择板子"><br>根据自己的板子类型选择即可。</p>
+<p>点击上传。</p>
+<p><img src="/%E4%B8%8A%E4%BC%A0.jpg" alt="上传"></p>
+<p><strong>注：</strong> 默认情况上传代吗的输出会显示乱码。</p>
+<p><img src="/%E4%B9%B1%E7%A0%81.jpg" alt="乱码"></p>
+<p>将文件C:\Users\ZXD.vscode\extensions\vsciot-vscode.vscode-arduino-0.4.5\out\src\common\util.js中的codepage行注释掉即可。</p>
+<p><img src="/util%E6%B3%A8%E9%87%8A.jpg" alt="util注释"></p>
+<p>重启vscode后输出正常。</p>
+<p><img src="/%E6%AD%A3%E5%B8%B8%E8%BE%93%E5%87%BA.jpg" alt="正常输出"></p>
+<p><strong>至此就可以正常使用vscode进行esp8266进行开发工作</strong></p>
+<p>**PS:**关闭360能够显著提高编译速度</p>
+
                 
             </div>
             <hr/>
@@ -516,7 +563,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://zhangxd123456.github.io/about/index.html">https://zhangxd123456.github.io/about/index.html</a>
+                    <a href="https://zhangxd123456.github.io/2022/08/2534083.html">https://zhangxd123456.github.io/2022/08/2534083.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -553,7 +600,15 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
+                            
+                                <a href="/tags/ESP8266/">
+                                    <span class="chip bg-color">ESP8266</span>
+                                </a>
+                            
+                                <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
+                                    <span class="chip bg-color">硬件编程</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -721,18 +776,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;Current
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/about/index.html">
+                <a href="/2022/08/2527629.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="about">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="什么是 FreeRTOS">
                         
-                        <span class="card-title">about</span>
+                        <span class="card-title">什么是 FreeRTOS</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -742,18 +796,33 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-23
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-08-25
+                        </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            EAST Z
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/ESP8266/" class="post-category">
+                                    ESP8266
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/ESP8266/">
+                        <span class="chip bg-color">ESP8266</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
+                        <span class="chip bg-color">硬件编程</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -761,16 +830,16 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                Current&nbsp;<i class="far fa-dot-circle"></i>
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/about/index.html">
+                <a href="/2022/08/2520574.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="about">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="ESP8266 固件下载以及 lua 电灯程序测试">
                         
-                        <span class="card-title">about</span>
+                        <span class="card-title">ESP8266 固件下载以及 lua 电灯程序测试</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -781,17 +850,32 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-23
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-25
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            EAST Z
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/ESP8266/" class="post-category">
+                                    ESP8266
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/ESP8266/">
+                        <span class="chip bg-color">ESP8266</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
+                        <span class="chip bg-color">硬件编程</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>

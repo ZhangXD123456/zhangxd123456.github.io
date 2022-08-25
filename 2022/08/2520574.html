@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="About, ESP8266 ipad">
+    <meta name="keywords" content="ESP8266 固件下载以及 lua 电灯程序测试, ESP8266 ipad">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>About | E_Z的博客</title>
+    <title>ESP8266 固件下载以及 lua 电灯程序测试 | E_Z的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -311,12 +311,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">about</h1>
+                    <h1 class="description center-align post-title">ESP8266 固件下载以及 lua 电灯程序测试</h1>
                 </div>
             </div>
         </div>
@@ -430,12 +430,29 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/ESP8266/">
+                                <span class="chip bg-color">ESP8266</span>
+                            </a>
+                        
+                            <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
+                                <span class="chip bg-color">硬件编程</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/ESP8266/" class="post-category">
+                                ESP8266
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -444,21 +461,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2022-08-23
+                    2022-08-25
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2022-08-23
+                    2022-08-25
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    0
+                    375
                 </div>
                 
 
@@ -490,7 +507,27 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h1 id="ESP8266固件下载及lua点灯程序测试"><a href="#ESP8266固件下载及lua点灯程序测试" class="headerlink" title="ESP8266固件下载及lua点灯程序测试"></a>ESP8266固件下载及lua点灯程序测试</h1><h2 id="一、固件下载"><a href="#一、固件下载" class="headerlink" title="一、固件下载"></a>一、固件下载</h2><p>资料准备：固件文件和下载工具</p>
+<blockquote>
+<p>固件文件：1.nodemcu_float_0.9.6-dev_20150704.bin</p>
+<p>​                  2.nodemcu_integer_0.9.6-dev_20150704.bin</p>
+<p>​                  3.nodemcu-firmware_v20150213.6.bin</p>
+</blockquote>
+<p>固件文件构建基本开发环境，决定使用不同的开发语言进行开发。</p>
+<blockquote>
+<p>下载工具：nodemcu-flasher-master\Win64\Release\ESP8266Flasher.exe</p>
+</blockquote>
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073961f4021.jpeg" alt="固件准备.jpeg"></p>
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/630739846e050.jpeg" alt="固件下载.jpeg"></p>
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/630739cb2e1ce.png" alt="固件参数设置.png"></p>
+<h2 id="二、ESPlorer"><a href="#二、ESPlorer" class="headerlink" title="二、ESPlorer"></a>二、ESPlorer</h2><p>ESPlorer需要JDK8u251环境经实验jdk8u291和jdk17都不能运行，且安装jdk8u251后要将其余JDK卸载干净否则仍不能运行。</p>
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/630739ed9956d.jpeg" alt="lua代码编译上传.jpeg"></p>
+<p>ESPlorer是执行lua代码的工具上传速度较快，可以直接控制GPIO等操作。</p>
+<h2 id="三、ESP8266-LUAloader"><a href="#三、ESP8266-LUAloader" class="headerlink" title="三、ESP8266 LUAloader"></a>三、ESP8266 LUAloader</h2><p>ESP8266 LUAloader 是可视化的lua工具，能够通过软件界面直接设置gpio的高低电平，还可以设置wifi连接，同时可以上传lua代码。</p>
+<p><strong>ps：</strong> 手中的esp8266板子控制灯的gpio是gpio2而不是电路图中的gpio0。设置gpio代号为4而不是0.</p>
+<h2 id="四、固件区分"><a href="#四、固件区分" class="headerlink" title="四、固件区分"></a>四、固件区分</h2><p>H:\脑洞产品\5.ESP8266学习\6.学习资料整理\1.文档\3.固件\固件\ESP8266原安信可固件\v1.3.0.2 AT Firmware.bin是安信可的AT固件可以执行AT指令，通信波特率为115200。可以使用ESPlorer和ESP8266调试工具V2.2对应下面的固件好使的.exe通过AT指令控制。</p>
+<p>H:\脑洞产品\5.ESP8266学习\6.学习资料整理\1.文档\3.固件\固件\Nodemcu官方固件\nodemcu_float_0.9.6-dev_20150704.bin和nodemcu_integer_0.9.6-dev_20150704.bin固件可以使用lua脚本，通信波特率9600不能使用AT指令。</p>
+
                 
             </div>
             <hr/>
@@ -516,7 +553,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://zhangxd123456.github.io/about/index.html">https://zhangxd123456.github.io/about/index.html</a>
+                    <a href="https://zhangxd123456.github.io/2022/08/2520574.html">https://zhangxd123456.github.io/2022/08/2520574.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -553,7 +590,15 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
+                            
+                                <a href="/tags/ESP8266/">
+                                    <span class="chip bg-color">ESP8266</span>
+                                </a>
+                            
+                                <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
+                                    <span class="chip bg-color">硬件编程</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -721,18 +766,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;Current
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/about/index.html">
+                <a href="/2022/08/2534083.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="about">
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="vscode 安装 ESP8266 开发环境">
                         
-                        <span class="card-title">about</span>
+                        <span class="card-title">vscode 安装 ESP8266 开发环境</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -742,18 +786,33 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-23
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-08-25
+                        </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            EAST Z
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/ESP8266/" class="post-category">
+                                    ESP8266
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/ESP8266/">
+                        <span class="chip bg-color">ESP8266</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
+                        <span class="chip bg-color">硬件编程</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -761,16 +820,16 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                Current&nbsp;<i class="far fa-dot-circle"></i>
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/about/index.html">
+                <a href="/2022/08/2327333.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="about">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="Arduino开发ESP8266环境配置">
                         
-                        <span class="card-title">about</span>
+                        <span class="card-title">Arduino开发ESP8266环境配置</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -785,13 +844,28 @@
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            EAST Z
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E7%A1%AC%E4%BB%B6/" class="post-category">
+                                    硬件
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/ESP8266/">
+                        <span class="chip bg-color">ESP8266</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
+                        <span class="chip bg-color">硬件编程</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>

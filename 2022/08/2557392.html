@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="About, ESP8266 ipad">
+    <meta name="keywords" content="ESP8266 windows 开发环境搭建, ESP8266 ipad">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>About | E_Z的博客</title>
+    <title>ESP8266 windows 开发环境搭建 | E_Z的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -311,12 +311,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/11.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">about</h1>
+                    <h1 class="description center-align post-title">ESP8266 windows 开发环境搭建</h1>
                 </div>
             </div>
         </div>
@@ -430,12 +430,29 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/ESP8266/">
+                                <span class="chip bg-color">ESP8266</span>
+                            </a>
+                        
+                            <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
+                                <span class="chip bg-color">硬件编程</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/ESP8266/" class="post-category">
+                                ESP8266
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -444,28 +461,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2022-08-23
+                    2022-08-25
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2022-08-23
+                    2022-08-25
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    0
+                    1.4k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    1 Min
+                    5 Min
                 </div>
                 
 
@@ -490,7 +507,83 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h1 id="ESP8266-windows开发环境搭建"><a href="#ESP8266-windows开发环境搭建" class="headerlink" title="ESP8266 windows开发环境搭建"></a>ESP8266 windows开发环境搭建</h1><h2 id="一、软件准备"><a href="#一、软件准备" class="headerlink" title="一、软件准备"></a>一、软件准备</h2><p>安信可一体化开发环境网上搜索即可</p>
+<h2 id="二、SDK编译"><a href="#二、SDK编译" class="headerlink" title="二、SDK编译"></a>二、SDK编译</h2><h3 id="1-添加环境变量"><a href="#1-添加环境变量" class="headerlink" title="1.添加环境变量"></a>1.添加环境变量</h3><p>安信可一体化开发环境解压后，将cygwin文件夹下的bin文件夹和opt\xtensa-lx106-elf\bin文件夹添加至系统环境变量。</p>
+<!--![安信可一体化开发环境](%E5%AE%89%E4%BF%A1%E5%8F%AF%E4%B8%80%E4%BD%93%E5%8C%96%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073e67bc3eb.jpeg" alt="安信可一体化开发环境"></p>
+<!--![添加环境变量](%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073e8773b4b.jpeg" alt="添加环境变量"></p>
+<h3 id="2-准备官方SDK"><a href="#2-准备官方SDK" class="headerlink" title="2.准备官方SDK"></a>2.准备官方SDK</h3><p>将官方SDK包里的third_party和driver_lib文件夹下的Makefile文件删除。导入eclipse。</p>
+<!--![官方sdk准备](%E5%AE%98%E6%96%B9sdk%E5%87%86%E5%A4%87.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073ea761e84.jpeg" alt="官方sdk准备"></p>
+<p>选择Existing Code as Makefile Project</p>
+<p><img src="/%E5%AF%BC%E5%85%A5eclipse.jpg" alt="导入eclipse"></p>
+<p>选择SDK文件夹取消c++选项，选择Cygwin GCC。</p>
+<!--![eclipse导入设置](eclipse%E5%AF%BC%E5%85%A5%E8%AE%BE%E7%BD%AE.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073ef1b7ff8.jpeg" alt="导入eclipse"></p>
+<h3 id="3-修改SDK的Makefile文件设置。"><a href="#3-修改SDK的Makefile文件设置。" class="headerlink" title="3.修改SDK的Makefile文件设置。"></a>3.修改SDK的Makefile文件设置。</h3><!--![修改Makefile文件](%E4%BF%AE%E6%94%B9Makefile%E6%96%87%E4%BB%B6.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073f1595e99.jpeg" alt="修改Makefile文件"></p>
+<p>如图将SDK根目录Makefile文件中第25行至2行的进行更改这几行和官方<a target="_blank" rel="noopener" href="https://www.espressif.com/sites/default/files/documentation/2a-esp8266-sdk_getting_started_guide_cn.pdf">2a-esp8266-sdk_getting_started_guide_cn.pdf</a>中的sdk编译选项对应关系如图。</p>
+<!--![sdk编译设置](sdk%E7%BC%96%E8%AF%91%E8%AE%BE%E7%BD%AE.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073f452b386.jpeg" alt="sdk编译设置.jpeg"></p>
+<pre class=" language-c"><code class="language-c">    BOOT<span class="token operator">?</span><span class="token operator">=</span>new    # boot版本选择，old<span class="token operator">=</span>boot_v1<span class="token number">.1</span><span class="token punctuation">,</span>new<span class="token operator">=</span>boot_v1<span class="token number">.2</span><span class="token operator">+</span><span class="token punctuation">,</span>none<span class="token operator">=</span>none
+    APP<span class="token operator">?</span><span class="token operator">=</span><span class="token number">1</span>       #固件升级方式选择，Firmware Over<span class="token operator">-</span>The<span class="token operator">-</span>Air（FOTA，⽀持云端升级）和   
+                 <span class="token macro property">#non-FOTA（不⽀持云端升级）的 BIN ⽂件，0=不支持云端升级，1，2=支持云</span>
+                 #端升级。<span class="token number">0</span><span class="token operator">=</span>eagle<span class="token punctuation">.</span>flash<span class="token punctuation">.</span>bin<span class="token punctuation">,</span><span class="token number">1</span><span class="token operator">=</span>user1<span class="token punctuation">.</span>bin<span class="token punctuation">,</span><span class="token number">2</span><span class="token operator">=</span>user2<span class="token punctuation">.</span>bin
+    SPI_SPEED<span class="token operator">?</span><span class="token operator">=</span><span class="token number">40</span># 芯片频率选择，根据实际选择，一般40MHz
+    SPI_MODE<span class="token operator">?</span><span class="token operator">=</span>QIO#下载方式短则选QIO即可
+    SPI_SIZE_MAP<span class="token operator">?</span><span class="token operator">=</span><span class="token number">6</span> #FLASH芯片容量选择，<span class="token number">1</span><span class="token operator">=</span>256KB<span class="token operator">=</span><span class="token function">2Kbit</span><span class="token punctuation">(</span>一般不支持<span class="token punctuation">)</span>，
+                  #<span class="token number">2</span><span class="token operator">=</span>1MB<span class="token operator">=</span><span class="token function">8Mbit</span><span class="token punctuation">(</span>512KB<span class="token operator">+</span>512KB<span class="token punctuation">)</span>，#<span class="token number">3</span><span class="token operator">=</span>2MB<span class="token operator">=</span><span class="token function">16Mbit</span><span class="token punctuation">(</span>512KB<span class="token operator">+</span>512KB<span class="token punctuation">)</span>，
+                  #<span class="token number">4</span><span class="token operator">=</span>8MB<span class="token operator">=</span><span class="token function">32Mbit</span><span class="token punctuation">(</span>512KB<span class="token operator">+</span>512KB<span class="token punctuation">)</span> ，
+                  #<span class="token number">5</span><span class="token operator">=</span>2MB<span class="token operator">=</span>16Mbit<span class="token operator">-</span><span class="token function">C1</span><span class="token punctuation">(</span>1024KB<span class="token operator">+</span>1024KB<span class="token punctuation">)</span>，
+                  #<span class="token number">6</span><span class="token operator">=</span>8MB<span class="token operator">=</span>32Mbit<span class="token operator">-</span><span class="token function">C1</span><span class="token punctuation">(</span>1024KB<span class="token operator">+</span>1024KB<span class="token punctuation">)</span> 
+</code></pre>
+<!--![Makefile编译设置](Makefile%E7%BC%96%E8%AF%91%E8%AE%BE%E7%BD%AE.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073f63a7aca.jpeg" alt="Makefile编译设置"></p>
+<p>设置好后，clean project和重新build project就可以了生成boot.bin和user1.4096.new.6.bin和flash下载地址。</p>
+<!--![编译成功](%E7%BC%96%E8%AF%91%E6%88%90%E5%8A%9F.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073f8fe4748.jpeg" alt="编译成功"></p>
+<h2 id="三、固件下载"><a href="#三、固件下载" class="headerlink" title="三、固件下载"></a>三、固件下载</h2><h3 id="1-文件准备"><a href="#1-文件准备" class="headerlink" title="1.文件准备"></a>1.文件准备</h3><p>按照上述编译方法编译SDK后在SDK根目录的bin文件夹下生成.bin文件，如图所示</p>
+<p><img src="/.bin%E6%96%87%E4%BB%B6.jpg" alt="bin文件"></p>
+<p>其中user.4096.new.6.bin 在upgrade文件夹下。</p>
+<h3 id="2-软件准备。"><a href="#2-软件准备。" class="headerlink" title="2.软件准备。"></a>2.软件准备。</h3><p>可以用来下载固件的软件有flash_download_tool_3.9.0、FLASH_DOWNLOAD_TOOLS_V3.6.3、ESP8266Flasher和esptool可以使用，推荐使用FLASH_DOWNLOAD_TOOLS_V3.6.3，除esptool没用过之外，其他的都有坑，后面专门讲解。</p>
+<!--![flash-down-tool](flash-down-tool.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073fe40144a.jpeg" alt="flash-down-tool"></p>
+<p>根据官方<a target="_blank" rel="noopener" href="https://www.espressif.com/sites/default/files/documentation/2a-esp8266-sdk_getting_started_guide_cn.pdf">2a-esp8266-sdk_getting_started_guide_cn.pdf</a>中下载地址的表格查看对应的flash地址。</p>
+<!--![flash地址关系](flash%E5%9C%B0%E5%9D%80%E5%85%B3%E7%B3%BB.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/6307402b66984.jpeg" alt="flash地址关系"></p>
+<p>根据Makefile中设置的flash容量选择地址。</p>
+<pre class=" language-c"><code class="language-c">SPI_SIZE_MAP<span class="token operator">?</span><span class="token operator">=</span><span class="token number">6</span> #FLASH芯片容量选择，
+#<span class="token number">1</span><span class="token operator">=</span>256KB<span class="token operator">=</span><span class="token function">2Kbit</span><span class="token punctuation">(</span>一般不支持<span class="token punctuation">)</span> <span class="token number">2</span><span class="token operator">=</span>1MB<span class="token operator">=</span><span class="token function">8Mbit</span><span class="token punctuation">(</span>512KB<span class="token operator">+</span>512KB<span class="token punctuation">)</span> <span class="token number">3</span><span class="token operator">=</span>2MB<span class="token operator">=</span><span class="token function">16Mbit</span><span class="token punctuation">(</span>512KB<span class="token operator">+</span>512KB<span class="token punctuation">)</span>，
+#<span class="token number">4</span><span class="token operator">=</span>8MB<span class="token operator">=</span><span class="token function">32Mbit</span><span class="token punctuation">(</span>512KB<span class="token operator">+</span>512KB<span class="token punctuation">)</span> <span class="token number">5</span><span class="token operator">=</span>2MB<span class="token operator">=</span>16Mbit<span class="token operator">-</span><span class="token function">C1</span><span class="token punctuation">(</span>1024KB<span class="token operator">+</span>1024KB<span class="token punctuation">)</span> <span class="token number">6</span><span class="token operator">=</span>8MB<span class="token operator">=</span>32Mbit<span class="token operator">-</span><span class="token function">C1</span><span class="token punctuation">(</span>1024KB<span class="token operator">+</span>1024KB<span class="token punctuation">)</span> 
+</code></pre>
+<p>例如SPI_SIZE_MAP设置为6.对应4096KB（1024+1024）的flash芯片，地址对应0x3FB000 、0x3FC000、0x3FE000、0x0000、0x01000这一列，按照对应关系填固件下载软件即可，其中6对应FLASH_DOWNLOAD_TOOLS中的FLASHSIZE选择32Mbit-C1，其他对应关系如图。</p>
+<p><strong>注</strong> 取消Donotchgbin勾选。选中它后软件的FLASHSIZE使用默认设置4Mbit(256KB+256KB)，对应spi_size_map&#x3D;0。</p>
+<p>SPI_SIZE_MAP设置和FLASH_DOWNLOAD_TOOLS软件中的设置一致时，芯片上电后串口显示如图mismatch map 4是Makefile文件中的SPI_SIZE_MAP设置，spi_size_map 0是FLASH_DOWNLOAD_TOOLS软件中FLASH SIZE的设置。一般只要两者对应都能正确下载固件。但是SPI_SIZE_MAP&#x3D;1或0不行。编译会提示”The flash map is not supported”。</p>
+<!--![spisize设置串口显示](spisize%E8%AE%BE%E7%BD%AE%E4%B8%B2%E5%8F%A3%E6%98%BE%E7%A4%BA.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/6307405fd1937.jpeg" alt="spisize设置串口显示"></p>
+<p>选择正确的地址和频率后即可下载固件，正确运行的串口如图所示。正确输出hello world！！！！</p>
+<!--![成功执行](%E6%88%90%E5%8A%9F%E6%89%A7%E8%A1%8C.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63074081e1508.jpeg" alt="成功执行"></p>
+<h1 id="四、坑"><a href="#四、坑" class="headerlink" title="四、坑"></a><strong>四、坑</strong></h1><h2 id="一、软件准备的坑。"><a href="#一、软件准备的坑。" class="headerlink" title="一、软件准备的坑。"></a>一、软件准备的坑。</h2><p>​		推荐使用<strong>安信可的一体化编译工具</strong>，因为要使用cygwin和xtensa-lx106-elf这两个编译工具，其中cygwin相当于一个下载器，自己安装很难搞明白具体应该安装那些工具（其中工具列表有上千甚至上万个），<strong>而官方提供的xtensa-lx106-elf不可用</strong> ，至少缺少xt-xcc.exe这个工具，而安信可的工具已将这两个工具配置好了，免安装，只需要按照上面讲的配置环境变量就可以正常使用。</p>
+<p><strong>注</strong> 安装目录不能有中文字符。 </p>
+<h2 id="二、SDK的坑"><a href="#二、SDK的坑" class="headerlink" title="二、SDK的坑"></a>二、SDK的坑</h2><p>​		对纯新手小白来说，很难弄清楚要将<strong>driver_lib</strong>文件下的<strong>Makefile</strong>文件和<strong>third_party</strong>文件夹删掉，并且将example文件夹下的demo文件夹复制到根目录。还有就是根目录下的Makefile设置。</p>
+<h2 id="三、固件下载软件的坑"><a href="#三、固件下载软件的坑" class="headerlink" title="三、固件下载软件的坑"></a>三、固件下载软件的坑</h2><h3 id="1-flash-dowmload-tools3-9-0"><a href="#1-flash-dowmload-tools3-9-0" class="headerlink" title="1.flash_dowmload_tools3.9.0"></a>1.flash_dowmload_tools3.9.0</h3><p>固件下载软件有很大的坑，特别是官方的flash_dowmload_tools3.9.0版，如图所示flash_dowmload_tools3.9.0版不支持选择FLASH SIZE，只能使用默认的SPI_SIZE_MAP&#x3D;0，对应4Mbit(256+256)，若是碰巧你的开发板使用的相同大小的flash可能碰巧可以正常使用，否则看命。</p>
+<!--![flash_download_tool_3.9.0](flash_download_tool_3.9.0.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/630740ba558c3.jpeg" alt="flash_download_tool_3.9.0"></p>
+<h3 id="2-ESP8266flasher"><a href="#2-ESP8266flasher" class="headerlink" title="2.ESP8266flasher"></a>2.ESP8266flasher</h3><p>ESP8266flasher也能用，也可以选择flash size，但是这个软件版本很多，每个都有一些细小的差别，如图。</p>
+<!--![ESP8266flasher](ESP8266flasher.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/630740e6dbf3b.jpeg" alt="ESP8266flasher"></p>
+<!--![esp8266flasher2](esp8266flasher2.jpg)-->
+<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63074107ea2b8.jpeg" alt="esp8266flasher2"></p>
+<p>ESP8266flasher存在一个问题不支持选择SPI_SIZE_MAP&#x3D;5或6[5&#x3D;2MB&#x3D;16Mbit-C1(1024KB+1024KB) 6&#x3D;8MB&#x3D;32Mbit-C1(1024KB+1024KB) ],若使用的4MB的flash，如果碰巧设置SPI_SIZE_MAP&#x3D;4下载后就正常，如果设置6，下载过程也正常，但是无法正常运行。</p>
+<p><strong>注</strong> 不论固件下载软件的FLASH SIZE如何选择，固件下载过程都正常，只有上电运行的使用后才会提示不可用。因此还是推荐使用FLASH_DOWNLOAD_TOOLS_V3.6.3，正确选择FLASHSIZE就可以了。</p>
+<p><em>另外，经过测试除SPI_SIZE_MAP&#x3D;0或1外，只要Makefile和固件下载软件的flash地址和flash size设置对应上就可以正确运行。推测原因是由于容量大的FLASH芯片地址兼容容量小的FLASH芯片地址，但是如果存储的.bin文件过大超过了地址范围可能会出问题，建议正确选择FLASH芯片容量。</em></p>
+<p>最后，最坑的就是乐鑫官方提供的工具坑最多，对新手很不友好。对了官方的lubuntu系统编译按照官方<a target="_blank" rel="noopener" href="https://www.espressif.com/sites/default/files/documentation/2a-esp8266-sdk_getting_started_guide_cn.pdf">2a-esp8266-sdk_getting_started_guide_cn.pdf</a>提示操作即可，注意给SDK文件夹授权，出问题的主要原因还是在后边的固件下载工具上,不在单独写了。</p>
+<pre class=" language-linux"><code class="language-linux">文件夹授权命令
+chmod -R 777 文件地址
+</code></pre>
+
                 
             </div>
             <hr/>
@@ -516,7 +609,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://zhangxd123456.github.io/about/index.html">https://zhangxd123456.github.io/about/index.html</a>
+                    <a href="https://zhangxd123456.github.io/2022/08/2557392.html">https://zhangxd123456.github.io/2022/08/2557392.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -553,7 +646,15 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
+                            
+                                <a href="/tags/ESP8266/">
+                                    <span class="chip bg-color">ESP8266</span>
+                                </a>
+                            
+                                <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
+                                    <span class="chip bg-color">硬件编程</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -721,18 +822,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;Current
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/about/index.html">
+                <a href="/2022/08/2536776.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="about">
+                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="ESP8266 驱动 1.44 寸屏幕（例程问题）">
                         
-                        <span class="card-title">about</span>
+                        <span class="card-title">ESP8266 驱动 1.44 寸屏幕（例程问题）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -742,18 +842,33 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-23
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-08-25
+                        </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            EAST Z
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/ESP8266/" class="post-category">
+                                    ESP8266
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/ESP8266/">
+                        <span class="chip bg-color">ESP8266</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
+                        <span class="chip bg-color">硬件编程</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -761,16 +876,16 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                Current&nbsp;<i class="far fa-dot-circle"></i>
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/about/index.html">
+                <a href="/2022/08/2527629.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="about">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="什么是 FreeRTOS">
                         
-                        <span class="card-title">about</span>
+                        <span class="card-title">什么是 FreeRTOS</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -781,17 +896,32 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-23
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-25
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            EAST Z
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/ESP8266/" class="post-category">
+                                    ESP8266
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/ESP8266/">
+                        <span class="chip bg-color">ESP8266</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
+                        <span class="chip bg-color">硬件编程</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
