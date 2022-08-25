@@ -49,7 +49,8 @@ tags:
 ![IMG_0234.png](http://ezblog.gnway.cc/i/2022/08/17/62fcb3dc97699.png)
     code app 可以通过远吗管理功能将代码上传到 GitHub 进行版本控制。
 ![IMG_0221.png](http://ezblog.gnway.cc/i/2022/08/17/62fcba697489f.png)
-    文件发生修改后，在源码管理页面的变更栏中会显示发生变化的文件，此时点击"+"，提交变更，会提示变更已经缓存。这时变更仅在本地缓存，随时可以撤销，要在上边的文本框中输入本次的更改注释，用来解释本次修改了哪些地方。
+    文件发生修改后，在源码管理页面的变更栏中会显示发生变化的文件，此时点击"+"，提交变更，
+    会提示变更已经缓存。这时变更仅在本地缓存，随时可以撤销，要在上边的文本框中输入本次的更改注释，用来解释本次修改了哪些地方。
 ![IMG_0221.png](http://ezblog.gnway.cc/i/2022/08/17/62fcba697489f.png)
 > 注意 code app 更改注释不可以为空，否层将不能提交缓存。右下角会提示 commit can not be empty.
 > ![IMG_0222.png](http://ezblog.gnway.cc/i/2022/08/17/62fcbe7d8e683.png)
@@ -60,7 +61,7 @@ tags:
 > 注意如果设置中的凭据设置错误将会提示 too many redirects or authentication replays。
 ![IMG_0229.png](http://ezblog.gnway.cc/i/2022/08/17/62fcbecebd738.png)
 ### 6.code app 的fetch 问题
-    为了同步本地和 GitHub 仓库的文件，在更改本地文件前首先使用 fetch 将 GitHub 远端的文件拉到本地。成功后提示 fetch succeed。
+    为了同步本地和 GitHub 仓库的文件，在更改本地文件前首先使用 fetch 将 GitHub远端的文件拉到本地。成功后提示 fetch succeed。
 ![IMG_0224.png](http://ezblog.gnway.cc/i/2022/08/17/62fcbe9dbeea8.png)
 ![IMG_0226.png](http://ezblog.gnway.cc/i/2022/08/17/62fcbf14966fb.png)
     当成功将文件复制到本地后，长按界面左下角的 master，会弹出 checkout detached 界面。

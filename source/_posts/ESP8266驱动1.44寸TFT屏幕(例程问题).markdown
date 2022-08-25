@@ -1,0 +1,36 @@
+---
+title: ESP8266 驱动 1.44 寸屏幕（例程问题）
+date: '2022-08-25 16:00'
+categories: ESP8266
+tags:
+    - ESP8266
+    - 硬件编程
+---
+# ESP8266驱动1.44寸TFT屏幕(例程问题)
+
+## 一、接线说明
+
+<!-- ![1.44寸TFT与8266接线说明](1.44%E5%AF%B8TFT%E4%B8%8E8266%E6%8E%A5%E7%BA%BF%E8%AF%B4%E6%98%8E.jpg) -->
+![1.44寸TFT与8266接线说明](http://ezblog.gnway.cc/i/2022/08/25/63073a339c5e9.jpeg)
+<!--![8266与1.44TFT屏幕引脚对应](8266%E4%B8%8E1.44TFT%E5%B1%8F%E5%B9%95%E5%BC%95%E8%84%9A%E5%AF%B9%E5%BA%94.jpg)-->
+![8266与1.44TFT屏幕引脚对应](http://ezblog.gnway.cc/i/2022/08/25/63073ae44edf9.jpeg)
+## 二、引脚对应
+
+<!--![6875152-d2e17763dffd54ec](6875152-d2e17763dffd54ec.png)-->
+![引脚对应图](http://ezblog.gnway.cc/i/2022/08/23/6304a3d194fd6.png)
+
+D1 --- 5
+
+D2 --- 4
+
+D3 --- 0
+
+## 三、修改例程
+
+<!--![例程](%E4%BE%8B%E7%A8%8B.jpg)-->
+![例程](http://ezblog.gnway.cc/i/2022/08/25/63073bdf3ddb6.jpeg)
+
+将D1、D2、D3改成5、4、0然后编译上传即可
+
+<!--![例程修改后](%E4%BE%8B%E7%A8%8B%E4%BF%AE%E6%94%B9%E5%90%8E.jpg)-->
+![例程修改后.jpeg](http://ezblog.gnway.cc/i/2022/08/25/63073bfaf191c.jpeg)

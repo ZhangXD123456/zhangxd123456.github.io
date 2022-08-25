@@ -1,0 +1,50 @@
+---
+title: ESP8266 固件下载以及 lua 电灯程序测试
+date: '2022-08-25 16:00'
+categories: ESP8266
+tags:
+    - ESP8266
+    - 硬件编程
+---
+
+# ESP8266固件下载及lua点灯程序测试
+
+## 一、固件下载
+
+资料准备：固件文件和下载工具
+
+> 固件文件：1.nodemcu_float_0.9.6-dev_20150704.bin
+>
+> ​                  2.nodemcu_integer_0.9.6-dev_20150704.bin
+>
+> ​                  3.nodemcu-firmware_v20150213.6.bin
+
+固件文件构建基本开发环境，决定使用不同的开发语言进行开发。
+
+> 下载工具：nodemcu-flasher-master\Win64\Release\ESP8266Flasher.exe
+
+![固件准备.jpeg](http://ezblog.gnway.cc/i/2022/08/25/63073961f4021.jpeg)
+
+![固件下载.jpeg](http://ezblog.gnway.cc/i/2022/08/25/630739846e050.jpeg)
+
+![固件参数设置.png](http://ezblog.gnway.cc/i/2022/08/25/630739cb2e1ce.png)
+
+## 二、ESPlorer
+
+ESPlorer需要JDK8u251环境经实验jdk8u291和jdk17都不能运行，且安装jdk8u251后要将其余JDK卸载干净否则仍不能运行。
+
+![lua代码编译上传.jpeg](http://ezblog.gnway.cc/i/2022/08/25/630739ed9956d.jpeg)
+
+ESPlorer是执行lua代码的工具上传速度较快，可以直接控制GPIO等操作。
+
+## 三、ESP8266 LUAloader 
+
+ESP8266 LUAloader 是可视化的lua工具，能够通过软件界面直接设置gpio的高低电平，还可以设置wifi连接，同时可以上传lua代码。
+
+**ps：** 手中的esp8266板子控制灯的gpio是gpio2而不是电路图中的gpio0。设置gpio代号为4而不是0.
+
+## 四、固件区分
+
+H:\脑洞产品\5.ESP8266学习\6.学习资料整理\1.文档\3.固件\固件\ESP8266原安信可固件\v1.3.0.2 AT Firmware.bin是安信可的AT固件可以执行AT指令，通信波特率为115200。可以使用ESPlorer和ESP8266调试工具V2.2对应下面的固件好使的.exe通过AT指令控制。
+
+H:\脑洞产品\5.ESP8266学习\6.学习资料整理\1.文档\3.固件\固件\Nodemcu官方固件\nodemcu_float_0.9.6-dev_20150704.bin和nodemcu_integer_0.9.6-dev_20150704.bin固件可以使用lua脚本，通信波特率9600不能使用AT指令。
