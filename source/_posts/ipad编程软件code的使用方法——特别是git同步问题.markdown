@@ -61,7 +61,7 @@ tags:
 > 注意如果设置中的凭据设置错误将会提示 too many redirects or authentication replays。
 ![IMG_0229.png](http://ezblog.gnway.cc/i/2022/08/17/62fcbecebd738.png)
 ### 6.code app 的fetch 问题
-    为了同步本地和 GitHub 仓库的文件，在更改本地文件前首先使用 fetch 将 GitHub远端的文件拉到本地。成功后提示 fetch succeed。
+为了同步本地和 GitHub 仓库的文件，在更改本地文件前首先使用 fetch 将 GitHub远端的文件拉到本地。成功后提示 fetch succeed。
 ![IMG_0224.png](http://ezblog.gnway.cc/i/2022/08/17/62fcbe9dbeea8.png)
 ![IMG_0226.png](http://ezblog.gnway.cc/i/2022/08/17/62fcbf14966fb.png)
     当成功将文件复制到本地后，长按界面左下角的 master，会弹出 checkout detached 界面。

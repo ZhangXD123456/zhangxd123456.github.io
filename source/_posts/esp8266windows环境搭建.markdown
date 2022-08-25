@@ -32,13 +32,12 @@ tags:
 
 选择Existing Code as Makefile Project
 
-![导入eclipse](%E5%AF%BC%E5%85%A5eclipse.jpg)
-
+<!--![导入eclipse](%E5%AF%BC%E5%85%A5eclipse.jpg)-->
+![导入eclipse](http://ezblog.gnway.cc/i/2022/08/25/63073ef1b7ff8.jpeg)
 选择SDK文件夹取消c++选项，选择Cygwin GCC。
 
 <!--![eclipse导入设置](eclipse%E5%AF%BC%E5%85%A5%E8%AE%BE%E7%BD%AE.jpg)-->
-![导入eclipse](http://ezblog.gnway.cc/i/2022/08/25/63073ef1b7ff8.jpeg)
-
+![eclipse导入设置](http://ezblog.gnway.cc/i/2022/08/25/63074767a3221.jpeg)
 ### 3.修改SDK的Makefile文件设置。
 
 <!--![修改Makefile文件](%E4%BF%AE%E6%94%B9Makefile%E6%96%87%E4%BB%B6.jpg)-->
@@ -77,7 +76,8 @@ tags:
 
 按照上述编译方法编译SDK后在SDK根目录的bin文件夹下生成.bin文件，如图所示
 
-![bin文件](.bin%E6%96%87%E4%BB%B6.jpg)
+<!--![bin文件](.bin%E6%96%87%E4%BB%B6.jpg)-->
+![bin文件](http://ezblog.gnway.cc/i/2022/08/25/6307482908f2e.jpeg)
 
 其中user.4096.new.6.bin 在upgrade文件夹下。
 
