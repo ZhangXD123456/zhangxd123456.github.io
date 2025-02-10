@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="ESP8266 驱动 1.44 寸屏幕（例程问题）, ESP8266">
+    <meta name="keywords" content="ESP8266">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>ESP8266 驱动 1.44 寸屏幕（例程问题） | E_Z的博客</title>
+    <title>E_Z的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -311,12 +311,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">ESP8266 驱动 1.44 寸屏幕（例程问题）</h1>
+                    <h1 class="description center-align post-title"></h1>
                 </div>
             </div>
         </div>
@@ -430,29 +430,12 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/ESP8266/">
-                                <span class="chip bg-color">ESP8266</span>
-                            </a>
-                        
-                            <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
-                                <span class="chip bg-color">硬件编程</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">No tag</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fas fa-bookmark fa-fw icon-category"></i>
-                        
-                            <a href="/categories/ESP8266/" class="post-category">
-                                ESP8266
-                            </a>
-                        
-                    </div>
                     
                 </div>
             </div>
@@ -461,28 +444,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2022-08-25
+                    2025-02-10
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2025-02-10
+                    2024-12-30
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    48
+                    436
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    1 Min
+                    2 Min
                 </div>
                 
 
@@ -507,20 +490,70 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="ESP8266驱动1-44寸TFT屏幕-例程问题"><a href="#ESP8266驱动1-44寸TFT屏幕-例程问题" class="headerlink" title="ESP8266驱动1.44寸TFT屏幕(例程问题)"></a>ESP8266驱动1.44寸TFT屏幕(例程问题)</h1><h2 id="一、接线说明"><a href="#一、接线说明" class="headerlink" title="一、接线说明"></a>一、接线说明</h2><!-- ![1.44寸TFT与8266接线说明](1.44%E5%AF%B8TFT%E4%B8%8E8266%E6%8E%A5%E7%BA%BF%E8%AF%B4%E6%98%8E.jpg) -->
-<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073a339c5e9.jpeg" alt="1.44寸TFT与8266接线说明"></p>
-<!--![8266与1.44TFT屏幕引脚对应](8266%E4%B8%8E1.44TFT%E5%B1%8F%E5%B9%95%E5%BC%95%E8%84%9A%E5%AF%B9%E5%BA%94.jpg)-->
-<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073ae44edf9.jpeg" alt="8266与1.44TFT屏幕引脚对应"></p>
-<h2 id="二、引脚对应"><a href="#二、引脚对应" class="headerlink" title="二、引脚对应"></a>二、引脚对应</h2><!--![6875152-d2e17763dffd54ec](6875152-d2e17763dffd54ec.png)-->
-<p><img src="http://ezblog.gnway.cc/i/2022/08/23/6304a3d194fd6.png" alt="引脚对应图"></p>
-<p>D1 — 5</p>
-<p>D2 — 4</p>
-<p>D3 — 0</p>
-<h2 id="三、修改例程"><a href="#三、修改例程" class="headerlink" title="三、修改例程"></a>三、修改例程</h2><!--![例程](%E4%BE%8B%E7%A8%8B.jpg)-->
-<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073bdf3ddb6.jpeg" alt="例程"></p>
-<p>将D1、D2、D3改成5、4、0然后编译上传即可</p>
-<!--![例程修改后](%E4%BE%8B%E7%A8%8B%E4%BF%AE%E6%94%B9%E5%90%8E.jpg)-->
-<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073bfaf191c.jpeg" alt="例程修改后.jpeg"></p>
+                <h2 id="1-MySQL数据安装配置"><a href="#1-MySQL数据安装配置" class="headerlink" title="1 MySQL数据安装配置"></a>1 MySQL数据安装配置</h2><p>MySQL数据库root密码admin123</p>
+<pre><code>PK：主键   NN：不能为空   UQ：值唯一  AI:自动增长 B：binary 二进制数据  UN：unsigned 无符号
+ZF：zero fill 补0  
+</code></pre>
+<h3 id="1-1-express中使用MySQL数据库"><a href="#1-1-express中使用MySQL数据库" class="headerlink" title="1.1 express中使用MySQL数据库"></a>1.1 express中使用MySQL数据库</h3><ul>
+<li><h3 id="安装mysql模块"><a href="#安装mysql模块" class="headerlink" title="安装mysql模块"></a>安装mysql模块</h3><pre><code> npm i mysql
+</code></pre>
+</li>
+</ul>
+<h3 id="1-2-配置mysql"><a href="#1-2-配置mysql" class="headerlink" title="1.2 配置mysql"></a>1.2 配置mysql</h3><p>mysql.creatpool()方法连接数据库</p>
+<pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">const</span> mysql <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'mysql'</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">//建立数据库连接，应用级数据库连接用户不应该用root用户，账号密码注意不能明传</span>
+<span class="token keyword">const</span> db <span class="token operator">=</span> mysql<span class="token punctuation">.</span><span class="token function">creatpool</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+host<span class="token punctuation">:</span><span class="token string">'127.0.0.1'</span><span class="token punctuation">,</span><span class="token comment" spellcheck="true">//数据库的ip</span>
+user<span class="token punctuation">:</span><span class="token string">'root'</span><span class="token punctuation">,</span><span class="token comment" spellcheck="true">//账号</span>
+password<span class="token punctuation">:</span><span class="token string">'admin123'</span><span class="token punctuation">,</span><span class="token comment" spellcheck="true">//密码</span>
+database<span class="token punctuation">:</span><span class="token string">'my_web_db'</span><span class="token comment" spellcheck="true">//指定要操作的数据库</span>
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">//测试数据库连接模块</span>
+db<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span><span class="token string">'SELECT 1'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>err<span class="token punctuation">,</span> results<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+ <span class="token keyword">if</span> <span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token keyword">return</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>err<span class="token punctuation">.</span>message<span class="token punctuation">)</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>results<span class="token punctuation">)</span>
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">)</span>
+</code></pre>
+<h3 id="1-3-mysql操作数据库的方法"><a href="#1-3-mysql操作数据库的方法" class="headerlink" title="1.3 mysql操作数据库的方法"></a>1.3 mysql操作数据库的方法</h3><p>使用db.query()方法查询数据</p>
+<pre class=" language-javascript"><code class="language-javascript">db<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span><span class="token string">'SELECT username FROM user'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>err<span class="token punctuation">,</span> results<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">if</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token keyword">return</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>err<span class="token punctuation">.</span>message<span class="token punctuation">)</span>
+
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>results<span class="token punctuation">)</span>
+
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">)</span>
+</code></pre>
+<p>插入数据的方法</p>
+<ul>
+<li>可以使用’?’进行占位</li>
+<li>可以使用’SET ?’</li>
+</ul>
+<pre class=" language-javascript"><code class="language-javascript"><span class="token comment" spellcheck="true">// 使用？进行占位</span>
+<span class="token keyword">const</span> user <span class="token operator">=</span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>username<span class="token punctuation">:</span><span class="token string">'zz'</span><span class="token punctuation">,</span>password<span class="token punctuation">:</span><span class="token string">'aa'</span><span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> sqlstr <span class="token operator">=</span> <span class="token string">'INSERT INTO users (username,password) VALUES (?,?)'</span>
+<span class="token comment" spellcheck="true">//用[user.username,user.password]代替(?,?)中的？</span>
+db<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span>sqlstr<span class="token punctuation">,</span><span class="token punctuation">[</span>user<span class="token punctuation">.</span>username<span class="token punctuation">,</span>user<span class="token punctuation">.</span>password<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>err<span class="token punctuation">,</span> results<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">if</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token keyword">return</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>err<span class="token punctuation">.</span>message<span class="token punctuation">)</span>
+
+    <span class="token keyword">if</span><span class="token punctuation">(</span>results<span class="token punctuation">.</span>affectedRows<span class="token operator">===</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'插入数据成功'</span><span class="token punctuation">)</span><span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">//SET ? 插入方法</span>
+<span class="token keyword">const</span> user <span class="token operator">=</span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>username<span class="token punctuation">:</span><span class="token string">'zz'</span><span class="token punctuation">,</span>password<span class="token punctuation">:</span><span class="token string">'aa'</span><span class="token punctuation">,</span>authority<span class="token punctuation">:</span><span class="token number">1</span><span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> sqlstr2<span class="token operator">=</span><span class="token string">'INSERT INTO user SET ?'</span>
+
+<span class="token comment" spellcheck="true">//用[user.username,user.password]代替(?,?)中的？</span>
+
+db<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span>sqlstr<span class="token punctuation">,</span> user<span class="token punctuation">,</span> <span class="token punctuation">(</span>err<span class="token punctuation">,</span> results<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token keyword">return</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>err<span class="token punctuation">.</span>message<span class="token punctuation">)</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>results<span class="token punctuation">.</span>affectedRows <span class="token operator">===</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'插入数据成功'</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">)</span>
+</code></pre>
+<h3 id="1-4-返回值的处理"><a href="#1-4-返回值的处理" class="headerlink" title="1.4 返回值的处理"></a>1.4 返回值的处理</h3><p>mysql的返回值’resules‘结果是 ’[RowDataPacket { password: ‘123’ }]‘，需要通过JSON.parse(JSON.stringify(results))变成”[{ password: ‘123’ }]”形式，然后通过数组的使用方法查找结果。例如JSON.parse(JSON.stringify(results))[0].password</p>
 
                 
             </div>
@@ -547,7 +580,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://zhangxd123456.github.io/2022/08/2536776.html">https://zhangxd123456.github.io/2022/08/2536776.html</a>
+                    <a href="https://zhangxd123456.github.io/2025/02/104.html">https://zhangxd123456.github.io/2025/02/104.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -584,15 +617,7 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/tags/ESP8266/">
-                                    <span class="chip bg-color">ESP8266</span>
-                                </a>
-                            
-                                <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
-                                    <span class="chip bg-color">硬件编程</span>
-                                </a>
-                            
+                            <span class="chip bg-color">No tag</span>
                         </div>
                     
                 </div>
@@ -764,7 +789,7 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2025/02/108.html">
+                <a href="/2025/02/107.html">
                     <div class="card-image">
                         
                         
@@ -801,13 +826,13 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/08/2527629.html">
+                <a href="/2025/02/106.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="什么是 FreeRTOS">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
                         
-                        <span class="card-title">什么是 FreeRTOS</span>
+                        <span class="card-title"></span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -818,31 +843,15 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-25
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-02-10
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/ESP8266/" class="post-category">
-                                    ESP8266
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            EAST Z
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/ESP8266/">
-                        <span class="chip bg-color">ESP8266</span>
-                    </a>
-                    
-                    <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
-                        <span class="chip bg-color">硬件编程</span>
-                    </a>
-                    
                 </div>
                 
             </div>

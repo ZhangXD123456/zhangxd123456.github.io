@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="ESP8266 驱动 1.44 寸屏幕（例程问题）, ESP8266">
+    <meta name="keywords" content="ESP8266">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>ESP8266 驱动 1.44 寸屏幕（例程问题） | E_Z的博客</title>
+    <title>E_Z的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -311,12 +311,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">ESP8266 驱动 1.44 寸屏幕（例程问题）</h1>
+                    <h1 class="description center-align post-title"></h1>
                 </div>
             </div>
         </div>
@@ -430,29 +430,12 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/ESP8266/">
-                                <span class="chip bg-color">ESP8266</span>
-                            </a>
-                        
-                            <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
-                                <span class="chip bg-color">硬件编程</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">No tag</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fas fa-bookmark fa-fw icon-category"></i>
-                        
-                            <a href="/categories/ESP8266/" class="post-category">
-                                ESP8266
-                            </a>
-                        
-                    </div>
                     
                 </div>
             </div>
@@ -461,28 +444,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2022-08-25
+                    2025-02-10
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2025-02-10
+                    2024-12-30
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    48
+                    538
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    1 Min
+                    2 Min
                 </div>
                 
 
@@ -507,20 +490,62 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="ESP8266驱动1-44寸TFT屏幕-例程问题"><a href="#ESP8266驱动1-44寸TFT屏幕-例程问题" class="headerlink" title="ESP8266驱动1.44寸TFT屏幕(例程问题)"></a>ESP8266驱动1.44寸TFT屏幕(例程问题)</h1><h2 id="一、接线说明"><a href="#一、接线说明" class="headerlink" title="一、接线说明"></a>一、接线说明</h2><!-- ![1.44寸TFT与8266接线说明](1.44%E5%AF%B8TFT%E4%B8%8E8266%E6%8E%A5%E7%BA%BF%E8%AF%B4%E6%98%8E.jpg) -->
-<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073a339c5e9.jpeg" alt="1.44寸TFT与8266接线说明"></p>
-<!--![8266与1.44TFT屏幕引脚对应](8266%E4%B8%8E1.44TFT%E5%B1%8F%E5%B9%95%E5%BC%95%E8%84%9A%E5%AF%B9%E5%BA%94.jpg)-->
-<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073ae44edf9.jpeg" alt="8266与1.44TFT屏幕引脚对应"></p>
-<h2 id="二、引脚对应"><a href="#二、引脚对应" class="headerlink" title="二、引脚对应"></a>二、引脚对应</h2><!--![6875152-d2e17763dffd54ec](6875152-d2e17763dffd54ec.png)-->
-<p><img src="http://ezblog.gnway.cc/i/2022/08/23/6304a3d194fd6.png" alt="引脚对应图"></p>
-<p>D1 — 5</p>
-<p>D2 — 4</p>
-<p>D3 — 0</p>
-<h2 id="三、修改例程"><a href="#三、修改例程" class="headerlink" title="三、修改例程"></a>三、修改例程</h2><!--![例程](%E4%BE%8B%E7%A8%8B.jpg)-->
-<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073bdf3ddb6.jpeg" alt="例程"></p>
-<p>将D1、D2、D3改成5、4、0然后编译上传即可</p>
-<!--![例程修改后](%E4%BE%8B%E7%A8%8B%E4%BF%AE%E6%94%B9%E5%90%8E.jpg)-->
-<p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073bfaf191c.jpeg" alt="例程修改后.jpeg"></p>
+                <p>#excalidraw 全栈开发</p>
+<h2 id="1-一、Node-js"><a href="#1-一、Node-js" class="headerlink" title="1 一、Node.js"></a>1 一、Node.js</h2><h3 id="1-1-（一）使用模块的方法"><a href="#1-1-（一）使用模块的方法" class="headerlink" title="1.1 （一）使用模块的方法"></a>1.1 （一）使用模块的方法</h3><p>Node.js 中使用require方法引入模块</p>
+<pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">const</span> fs <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'fs'</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> path <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'path'</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> http <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'http'</span><span class="token punctuation">)</span>
+</code></pre>
+<p>fs模块用来操作文件<br>path模块用来拼接路径<br>http模块用来构建web服务器</p>
+<h3 id="1-2-（二）web服务器基本组成"><a href="#1-2-（二）web服务器基本组成" class="headerlink" title="1.2 （二）web服务器基本组成"></a>1.2 （二）web服务器基本组成</h3><h4 id="1-2-1-1-导入http模块"><a href="#1-2-1-1-导入http模块" class="headerlink" title="1.2.1 1.导入http模块"></a>1.2.1 1.导入http模块</h4><pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">const</span> http <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'http'</span><span class="token punctuation">)</span>
+</code></pre>
+<h4 id="1-2-2-2-创建web实例"><a href="#1-2-2-2-创建web实例" class="headerlink" title="1.2.2 2.创建web实例"></a>1.2.2 2.创建web实例</h4><p>调用http.createServer()方法创建web实例</p>
+<pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">const</span> server <span class="token operator">=</span> http<span class="token punctuation">.</span><span class="token function">creatServer</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre>
+<h4 id="1-2-3-3-绑定request事件用来监听网络请求"><a href="#1-2-3-3-绑定request事件用来监听网络请求" class="headerlink" title="1.2.3 3.绑定request事件用来监听网络请求"></a>1.2.3 3.绑定request事件用来监听网络请求</h4><pre class=" language-javascript"><code class="language-javascript">server<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'request'</span><span class="token punctuation">,</span><span class="token punctuation">(</span>req<span class="token punctuation">,</span>res<span class="token punctuation">)</span><span class="token operator">=</span><span class="token operator">></span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">//只要有客户端请求就会触发request事件</span>
+<span class="token comment" spellcheck="true">//举例返回console.log打印日志</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'print a log'</span><span class="token punctuation">)</span>
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">)</span>
+</code></pre>
+<pre class=" language-javascript"><code class="language-javascript">server<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'参数一'</span><span class="token punctuation">,</span>参数二<span class="token punctuation">)</span>
+参数一：事件名称，认为是自定义的，公认request事件？也许
+参数二：回调函数，用来执行监听到客户端请求后的处理方法。
+</code></pre>
+<h4 id="1-2-4-4-启动服务器"><a href="#1-2-4-4-启动服务器" class="headerlink" title="1.2.4 4.启动服务器"></a>1.2.4 4.启动服务器</h4><pre class=" language-javascript"><code class="language-javascript">server<span class="token punctuation">.</span><span class="token function">linsten</span><span class="token punctuation">(</span><span class="token number">80</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">=</span><span class="token operator">></span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'http server running at http://127.0.0.1'</span><span class="token punctuation">)</span>
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">)</span>
+</code></pre>
+<pre class=" language-javascript"><code class="language-javascript">server<span class="token punctuation">.</span><span class="token function">linsten</span><span class="token punctuation">(</span>端口号，回调方法<span class="token punctuation">)</span>
+</code></pre>
+<h4 id="1-2-5-5-创建服务器的完整代码"><a href="#1-2-5-5-创建服务器的完整代码" class="headerlink" title="1.2.5 5.创建服务器的完整代码"></a>1.2.5 5.创建服务器的完整代码</h4><pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">const</span> http <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'http'</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> server <span class="token operator">=</span> http<span class="token punctuation">.</span><span class="token function">creatServer</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+server<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'request'</span><span class="token punctuation">,</span><span class="token punctuation">(</span>req<span class="token punctuation">,</span>res<span class="token punctuation">)</span><span class="token operator">=</span><span class="token operator">></span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">//获取客户端url地址</span>
+req<span class="token punctuation">.</span>url
+<span class="token comment" spellcheck="true">//获取http请求方法</span>
+req<span class="token punctuation">.</span>method
+<span class="token comment" spellcheck="true">//设置content-type响应头，解决中文乱码问题</span>
+res<span class="token punctuation">.</span><span class="token function">setHeader</span><span class="token punctuation">(</span><span class="token string">'Content-Type'</span><span class="token punctuation">,</span><span class="token string">'text/html;chartset=utf-8'</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">//将内容响应给客户端</span>
+res<span class="token punctuation">.</span><span class="token function">end</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">)</span>
+server<span class="token punctuation">.</span><span class="token function">linsten</span><span class="token punctuation">(</span><span class="token number">80</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">=</span><span class="token operator">></span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'http server running at http://127.0.0.1'</span><span class="token punctuation">)</span>
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">)</span>
+</code></pre>
+<h3 id="1-3-（二）模块化"><a href="#1-3-（二）模块化" class="headerlink" title="1.3 （二）模块化"></a>1.3 （二）模块化</h3><h4 id="1-3-1-1-模块化分类"><a href="#1-3-1-1-模块化分类" class="headerlink" title="1.3.1 1.模块化分类"></a>1.3.1 1.模块化分类</h4><p>内置模块、自定义模块、第三方模块</p>
+<h4 id="1-3-2-2-加载模块"><a href="#1-3-2-2-加载模块" class="headerlink" title="1.3.2 2.加载模块"></a>1.3.2 2.加载模块</h4><p>使用require()方法加载模块</p>
+<pre class=" language-javascript"><code class="language-javascript"><span class="token comment" spellcheck="true">//加载自定义模块需要路径</span>
+<span class="token keyword">const</span> 模块<span class="token operator">=</span><span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'模块名'</span><span class="token punctuation">)</span>
+</code></pre>
+<p>加载模块实际上是加载模块中moudle.exports&#x3D;{}中的内容</p>
+<h4 id="1-3-3-3-自定义模块"><a href="#1-3-3-3-自定义模块" class="headerlink" title="1.3.3 3.自定义模块"></a>1.3.3 3.自定义模块</h4><p>module.exports &#x3D;&#x3D;&#x3D; exports</p>
+<pre class=" language-javascript"><code class="language-javascript"><span class="token comment" spellcheck="true">//向module.exports上挂载一个username属性</span>
+module<span class="token punctuation">.</span>exports<span class="token punctuation">.</span>username<span class="token operator">=</span><span class="token string">'zs'</span>
+module<span class="token punctuation">.</span>exports<span class="token punctuation">.</span>sayHello<span class="token operator">=</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span><span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//方法</span>
+</code></pre>
+<h4 id="1-3-4-4-模块化规范CommonJS"><a href="#1-3-4-4-模块化规范CommonJS" class="headerlink" title="1.3.4 4.模块化规范CommonJS"></a>1.3.4 4.模块化规范CommonJS</h4><p>（1）每个模块内部，module代表该模块<br>（2）module变量是一个对象，exports是属性即对外接口<br>（3）加载模块就是加载module.exports属性</p>
 
                 
             </div>
@@ -547,7 +572,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://zhangxd123456.github.io/2022/08/2536776.html">https://zhangxd123456.github.io/2022/08/2536776.html</a>
+                    <a href="https://zhangxd123456.github.io/2025/02/103.html">https://zhangxd123456.github.io/2025/02/103.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -584,15 +609,7 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/tags/ESP8266/">
-                                    <span class="chip bg-color">ESP8266</span>
-                                </a>
-                            
-                                <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
-                                    <span class="chip bg-color">硬件编程</span>
-                                </a>
-                            
+                            <span class="chip bg-color">No tag</span>
                         </div>
                     
                 </div>
@@ -764,7 +781,7 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2025/02/108.html">
+                <a href="/2025/02/106.html">
                     <div class="card-image">
                         
                         
@@ -801,13 +818,13 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/08/2527629.html">
+                <a href="/2025/02/100.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="什么是 FreeRTOS">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
                         
-                        <span class="card-title">什么是 FreeRTOS</span>
+                        <span class="card-title"></span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -818,31 +835,15 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-25
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-02-10
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/ESP8266/" class="post-category">
-                                    ESP8266
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            EAST Z
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/ESP8266/">
-                        <span class="chip bg-color">ESP8266</span>
-                    </a>
-                    
-                    <a href="/tags/%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B/">
-                        <span class="chip bg-color">硬件编程</span>
-                    </a>
-                    
                 </div>
                 
             </div>
