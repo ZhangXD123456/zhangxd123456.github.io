@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>ESP8266 驱动 1.44 寸屏幕（例程问题）</title>
+      <link href="/2022/08/2536776.html"/>
+      <url>/2022/08/2536776.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="ESP8266驱动1-44寸TFT屏幕-例程问题"><a href="#ESP8266驱动1-44寸TFT屏幕-例程问题" class="headerlink" title="ESP8266驱动1.44寸TFT屏幕(例程问题)"></a>ESP8266驱动1.44寸TFT屏幕(例程问题)</h1><h2 id="一、接线说明"><a href="#一、接线说明" class="headerlink" title="一、接线说明"></a>一、接线说明</h2><!-- ![1.44寸TFT与8266接线说明](1.44%E5%AF%B8TFT%E4%B8%8E8266%E6%8E%A5%E7%BA%BF%E8%AF%B4%E6%98%8E.jpg) --><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073a339c5e9.jpeg" alt="1.44寸TFT与8266接线说明"></p><!--![8266与1.44TFT屏幕引脚对应](8266%E4%B8%8E1.44TFT%E5%B1%8F%E5%B9%95%E5%BC%95%E8%84%9A%E5%AF%B9%E5%BA%94.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073ae44edf9.jpeg" alt="8266与1.44TFT屏幕引脚对应"></p><h2 id="二、引脚对应"><a href="#二、引脚对应" class="headerlink" title="二、引脚对应"></a>二、引脚对应</h2><!--![6875152-d2e17763dffd54ec](6875152-d2e17763dffd54ec.png)--><p><img src="http://ezblog.gnway.cc/i/2022/08/23/6304a3d194fd6.png" alt="引脚对应图"></p><p>D1 — 5</p><p>D2 — 4</p><p>D3 — 0</p><h2 id="三、修改例程"><a href="#三、修改例程" class="headerlink" title="三、修改例程"></a>三、修改例程</h2><!--![例程](%E4%BE%8B%E7%A8%8B.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073bdf3ddb6.jpeg" alt="例程"></p><p>将D1、D2、D3改成5、4、0然后编译上传即可</p><!--![例程修改后](%E4%BE%8B%E7%A8%8B%E4%BF%AE%E6%94%B9%E5%90%8E.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073bfaf191c.jpeg" alt="例程修改后.jpeg"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> ESP8266 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ESP8266 </tag>
+            
+            <tag> 硬件编程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>什么是 FreeRTOS</title>
+      <link href="/2022/08/2527629.html"/>
+      <url>/2022/08/2527629.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="什么是FreeRTOS"><a href="#什么是FreeRTOS" class="headerlink" title="什么是FreeRTOS"></a>什么是FreeRTOS</h1><blockquote><p>1.Free 即免费的，RTOS 全称是 Real Time Operating System，中文就是实时操作系统。注意，RTOS 不是指某一个确定的系统，而是指一类系统。比如 uC&#x2F;OS，FreeRTOS，RTX，RT-Thread 等这些都是 RTOS 类操作系统。<br>2.操作系统允许多个任务同时运行，这个叫做多任务。实际上，一个处理器核心在某一时刻只能运行一个任务。操作系统中任务调度器的责任就是决定在某一时刻究竟运行哪个任务。任务调度在各个任务之间的切换非常快，就给人们造成了同一时刻有多个任务同时运行的错觉。<br>3.某些操作系统给每个任务分配同样的运行时间，时间到了就轮到下一个任务，比如Unix 操作系统。 FreeRTOS 操作系统则是由用户给每个任务分配一个任务优先级，任务调度器就可以根据此优先级来决定下一刻应该运行哪个任务。<br>4.FreeRTOS 是 RTOS 系统的一种，FreeRTOS 十分的小巧，可以在资源有限的微控制器中运行，当然，FreeRTOS 不仅局限于在微控制器中使用。但从文件数量上来看 FreeRTOS 要比uC&#x2F;OSII 和 uC&#x2F;OSIII 小的多。</p></blockquote><p>FreeRTOS资料</p><p><a href="http://www.freertos.org/">www.freertos.org</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> ESP8266 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ESP8266 </tag>
+            
+            <tag> 硬件编程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ESP8266 windows 开发环境搭建</title>
+      <link href="/2022/08/2557392.html"/>
+      <url>/2022/08/2557392.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="ESP8266-windows开发环境搭建"><a href="#ESP8266-windows开发环境搭建" class="headerlink" title="ESP8266 windows开发环境搭建"></a>ESP8266 windows开发环境搭建</h1><h2 id="一、软件准备"><a href="#一、软件准备" class="headerlink" title="一、软件准备"></a>一、软件准备</h2><p>安信可一体化开发环境网上搜索即可</p><h2 id="二、SDK编译"><a href="#二、SDK编译" class="headerlink" title="二、SDK编译"></a>二、SDK编译</h2><h3 id="1-添加环境变量"><a href="#1-添加环境变量" class="headerlink" title="1.添加环境变量"></a>1.添加环境变量</h3><p>安信可一体化开发环境解压后，将cygwin文件夹下的bin文件夹和opt\xtensa-lx106-elf\bin文件夹添加至系统环境变量。</p><!--![安信可一体化开发环境](%E5%AE%89%E4%BF%A1%E5%8F%AF%E4%B8%80%E4%BD%93%E5%8C%96%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073e67bc3eb.jpeg" alt="安信可一体化开发环境"></p><!--![添加环境变量](%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073e8773b4b.jpeg" alt="添加环境变量"></p><h3 id="2-准备官方SDK"><a href="#2-准备官方SDK" class="headerlink" title="2.准备官方SDK"></a>2.准备官方SDK</h3><p>将官方SDK包里的third_party和driver_lib文件夹下的Makefile文件删除。导入eclipse。</p><!--![官方sdk准备](%E5%AE%98%E6%96%B9sdk%E5%87%86%E5%A4%87.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073ea761e84.jpeg" alt="官方sdk准备"></p><p>选择Existing Code as Makefile Project</p><!--![导入eclipse](%E5%AF%BC%E5%85%A5eclipse.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073ef1b7ff8.jpeg" alt="导入eclipse"><br>选择SDK文件夹取消c++选项，选择Cygwin GCC。</p><!--![eclipse导入设置](eclipse%E5%AF%BC%E5%85%A5%E8%AE%BE%E7%BD%AE.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63074767a3221.jpeg" alt="eclipse导入设置"></p><h3 id="3-修改SDK的Makefile文件设置。"><a href="#3-修改SDK的Makefile文件设置。" class="headerlink" title="3.修改SDK的Makefile文件设置。"></a>3.修改SDK的Makefile文件设置。</h3><!--![修改Makefile文件](%E4%BF%AE%E6%94%B9Makefile%E6%96%87%E4%BB%B6.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073f1595e99.jpeg" alt="修改Makefile文件"></p><p>如图将SDK根目录Makefile文件中第25行至2行的进行更改这几行和官方<a href="https://www.espressif.com/sites/default/files/documentation/2a-esp8266-sdk_getting_started_guide_cn.pdf">2a-esp8266-sdk_getting_started_guide_cn.pdf</a>中的sdk编译选项对应关系如图。</p><!--![sdk编译设置](sdk%E7%BC%96%E8%AF%91%E8%AE%BE%E7%BD%AE.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073f452b386.jpeg" alt="sdk编译设置.jpeg"></p><pre class=" language-c"><code class="language-c">    BOOT<span class="token operator">?</span><span class="token operator">=</span>new    # boot版本选择，old<span class="token operator">=</span>boot_v1<span class="token number">.1</span><span class="token punctuation">,</span>new<span class="token operator">=</span>boot_v1<span class="token number">.2</span><span class="token operator">+</span><span class="token punctuation">,</span>none<span class="token operator">=</span>none    APP<span class="token operator">?</span><span class="token operator">=</span><span class="token number">1</span>       #固件升级方式选择，Firmware Over<span class="token operator">-</span>The<span class="token operator">-</span>Air（FOTA，⽀持云端升级）和                    <span class="token macro property">#non-FOTA（不⽀持云端升级）的 BIN ⽂件，0=不支持云端升级，1，2=支持云</span>                 #端升级。<span class="token number">0</span><span class="token operator">=</span>eagle<span class="token punctuation">.</span>flash<span class="token punctuation">.</span>bin<span class="token punctuation">,</span><span class="token number">1</span><span class="token operator">=</span>user1<span class="token punctuation">.</span>bin<span class="token punctuation">,</span><span class="token number">2</span><span class="token operator">=</span>user2<span class="token punctuation">.</span>bin    SPI_SPEED<span class="token operator">?</span><span class="token operator">=</span><span class="token number">40</span># 芯片频率选择，根据实际选择，一般40MHz    SPI_MODE<span class="token operator">?</span><span class="token operator">=</span>QIO#下载方式短则选QIO即可    SPI_SIZE_MAP<span class="token operator">?</span><span class="token operator">=</span><span class="token number">6</span> #FLASH芯片容量选择，<span class="token number">1</span><span class="token operator">=</span>256KB<span class="token operator">=</span><span class="token function">2Kbit</span><span class="token punctuation">(</span>一般不支持<span class="token punctuation">)</span>，                  #<span class="token number">2</span><span class="token operator">=</span>1MB<span class="token operator">=</span><span class="token function">8Mbit</span><span class="token punctuation">(</span>512KB<span class="token operator">+</span>512KB<span class="token punctuation">)</span>，#<span class="token number">3</span><span class="token operator">=</span>2MB<span class="token operator">=</span><span class="token function">16Mbit</span><span class="token punctuation">(</span>512KB<span class="token operator">+</span>512KB<span class="token punctuation">)</span>，                  #<span class="token number">4</span><span class="token operator">=</span>8MB<span class="token operator">=</span><span class="token function">32Mbit</span><span class="token punctuation">(</span>512KB<span class="token operator">+</span>512KB<span class="token punctuation">)</span> ，                  #<span class="token number">5</span><span class="token operator">=</span>2MB<span class="token operator">=</span>16Mbit<span class="token operator">-</span><span class="token function">C1</span><span class="token punctuation">(</span>1024KB<span class="token operator">+</span>1024KB<span class="token punctuation">)</span>，                  #<span class="token number">6</span><span class="token operator">=</span>8MB<span class="token operator">=</span>32Mbit<span class="token operator">-</span><span class="token function">C1</span><span class="token punctuation">(</span>1024KB<span class="token operator">+</span>1024KB<span class="token punctuation">)</span> </code></pre><!--![Makefile编译设置](Makefile%E7%BC%96%E8%AF%91%E8%AE%BE%E7%BD%AE.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073f63a7aca.jpeg" alt="Makefile编译设置"></p><p>设置好后，clean project和重新build project就可以了生成boot.bin和user1.4096.new.6.bin和flash下载地址。</p><!--![编译成功](%E7%BC%96%E8%AF%91%E6%88%90%E5%8A%9F.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073f8fe4748.jpeg" alt="编译成功"></p><h2 id="三、固件下载"><a href="#三、固件下载" class="headerlink" title="三、固件下载"></a>三、固件下载</h2><h3 id="1-文件准备"><a href="#1-文件准备" class="headerlink" title="1.文件准备"></a>1.文件准备</h3><p>按照上述编译方法编译SDK后在SDK根目录的bin文件夹下生成.bin文件，如图所示</p><!--![bin文件](.bin%E6%96%87%E4%BB%B6.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/6307482908f2e.jpeg" alt="bin文件"></p><p>其中user.4096.new.6.bin 在upgrade文件夹下。</p><h3 id="2-软件准备。"><a href="#2-软件准备。" class="headerlink" title="2.软件准备。"></a>2.软件准备。</h3><p>可以用来下载固件的软件有flash_download_tool_3.9.0、FLASH_DOWNLOAD_TOOLS_V3.6.3、ESP8266Flasher和esptool可以使用，推荐使用FLASH_DOWNLOAD_TOOLS_V3.6.3，除esptool没用过之外，其他的都有坑，后面专门讲解。</p><!--![flash-down-tool](flash-down-tool.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073fe40144a.jpeg" alt="flash-down-tool"></p><p>根据官方<a href="https://www.espressif.com/sites/default/files/documentation/2a-esp8266-sdk_getting_started_guide_cn.pdf">2a-esp8266-sdk_getting_started_guide_cn.pdf</a>中下载地址的表格查看对应的flash地址。</p><!--![flash地址关系](flash%E5%9C%B0%E5%9D%80%E5%85%B3%E7%B3%BB.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/6307402b66984.jpeg" alt="flash地址关系"></p><p>根据Makefile中设置的flash容量选择地址。</p><pre class=" language-c"><code class="language-c">SPI_SIZE_MAP<span class="token operator">?</span><span class="token operator">=</span><span class="token number">6</span> #FLASH芯片容量选择，#<span class="token number">1</span><span class="token operator">=</span>256KB<span class="token operator">=</span><span class="token function">2Kbit</span><span class="token punctuation">(</span>一般不支持<span class="token punctuation">)</span> <span class="token number">2</span><span class="token operator">=</span>1MB<span class="token operator">=</span><span class="token function">8Mbit</span><span class="token punctuation">(</span>512KB<span class="token operator">+</span>512KB<span class="token punctuation">)</span> <span class="token number">3</span><span class="token operator">=</span>2MB<span class="token operator">=</span><span class="token function">16Mbit</span><span class="token punctuation">(</span>512KB<span class="token operator">+</span>512KB<span class="token punctuation">)</span>，#<span class="token number">4</span><span class="token operator">=</span>8MB<span class="token operator">=</span><span class="token function">32Mbit</span><span class="token punctuation">(</span>512KB<span class="token operator">+</span>512KB<span class="token punctuation">)</span> <span class="token number">5</span><span class="token operator">=</span>2MB<span class="token operator">=</span>16Mbit<span class="token operator">-</span><span class="token function">C1</span><span class="token punctuation">(</span>1024KB<span class="token operator">+</span>1024KB<span class="token punctuation">)</span> <span class="token number">6</span><span class="token operator">=</span>8MB<span class="token operator">=</span>32Mbit<span class="token operator">-</span><span class="token function">C1</span><span class="token punctuation">(</span>1024KB<span class="token operator">+</span>1024KB<span class="token punctuation">)</span> </code></pre><p>例如SPI_SIZE_MAP设置为6.对应4096KB（1024+1024）的flash芯片，地址对应0x3FB000 、0x3FC000、0x3FE000、0x0000、0x01000这一列，按照对应关系填固件下载软件即可，其中6对应FLASH_DOWNLOAD_TOOLS中的FLASHSIZE选择32Mbit-C1，其他对应关系如图。</p><p><strong>注</strong> 取消Donotchgbin勾选。选中它后软件的FLASHSIZE使用默认设置4Mbit(256KB+256KB)，对应spi_size_map&#x3D;0。</p><p>SPI_SIZE_MAP设置和FLASH_DOWNLOAD_TOOLS软件中的设置一致时，芯片上电后串口显示如图mismatch map 4是Makefile文件中的SPI_SIZE_MAP设置，spi_size_map 0是FLASH_DOWNLOAD_TOOLS软件中FLASH SIZE的设置。一般只要两者对应都能正确下载固件。但是SPI_SIZE_MAP&#x3D;1或0不行。编译会提示”The flash map is not supported”。</p><!--![spisize设置串口显示](spisize%E8%AE%BE%E7%BD%AE%E4%B8%B2%E5%8F%A3%E6%98%BE%E7%A4%BA.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/6307405fd1937.jpeg" alt="spisize设置串口显示"></p><p>选择正确的地址和频率后即可下载固件，正确运行的串口如图所示。正确输出hello world！！！！</p><!--![成功执行](%E6%88%90%E5%8A%9F%E6%89%A7%E8%A1%8C.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63074081e1508.jpeg" alt="成功执行"></p><h1 id="四、坑"><a href="#四、坑" class="headerlink" title="四、坑"></a><strong>四、坑</strong></h1><h2 id="一、软件准备的坑。"><a href="#一、软件准备的坑。" class="headerlink" title="一、软件准备的坑。"></a>一、软件准备的坑。</h2><p>​推荐使用<strong>安信可的一体化编译工具</strong>，因为要使用cygwin和xtensa-lx106-elf这两个编译工具，其中cygwin相当于一个下载器，自己安装很难搞明白具体应该安装那些工具（其中工具列表有上千甚至上万个），<strong>而官方提供的xtensa-lx106-elf不可用</strong> ，至少缺少xt-xcc.exe这个工具，而安信可的工具已将这两个工具配置好了，免安装，只需要按照上面讲的配置环境变量就可以正常使用。</p><p><strong>注</strong> 安装目录不能有中文字符。 </p><h2 id="二、SDK的坑"><a href="#二、SDK的坑" class="headerlink" title="二、SDK的坑"></a>二、SDK的坑</h2><p>​对纯新手小白来说，很难弄清楚要将<strong>driver_lib</strong>文件下的<strong>Makefile</strong>文件和<strong>third_party</strong>文件夹删掉，并且将example文件夹下的demo文件夹复制到根目录。还有就是根目录下的Makefile设置。</p><h2 id="三、固件下载软件的坑"><a href="#三、固件下载软件的坑" class="headerlink" title="三、固件下载软件的坑"></a>三、固件下载软件的坑</h2><h3 id="1-flash-dowmload-tools3-9-0"><a href="#1-flash-dowmload-tools3-9-0" class="headerlink" title="1.flash_dowmload_tools3.9.0"></a>1.flash_dowmload_tools3.9.0</h3><p>固件下载软件有很大的坑，特别是官方的flash_dowmload_tools3.9.0版，如图所示flash_dowmload_tools3.9.0版不支持选择FLASH SIZE，只能使用默认的SPI_SIZE_MAP&#x3D;0，对应4Mbit(256+256)，若是碰巧你的开发板使用的相同大小的flash可能碰巧可以正常使用，否则看命。</p><!--![flash_download_tool_3.9.0](flash_download_tool_3.9.0.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/630740ba558c3.jpeg" alt="flash_download_tool_3.9.0"></p><h3 id="2-ESP8266flasher"><a href="#2-ESP8266flasher" class="headerlink" title="2.ESP8266flasher"></a>2.ESP8266flasher</h3><p>ESP8266flasher也能用，也可以选择flash size，但是这个软件版本很多，每个都有一些细小的差别，如图。</p><!--![ESP8266flasher](ESP8266flasher.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/630740e6dbf3b.jpeg" alt="ESP8266flasher"></p><!--![esp8266flasher2](esp8266flasher2.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63074107ea2b8.jpeg" alt="esp8266flasher2"></p><p>ESP8266flasher存在一个问题不支持选择SPI_SIZE_MAP&#x3D;5或6[5&#x3D;2MB&#x3D;16Mbit-C1(1024KB+1024KB) 6&#x3D;8MB&#x3D;32Mbit-C1(1024KB+1024KB) ],若使用的4MB的flash，如果碰巧设置SPI_SIZE_MAP&#x3D;4下载后就正常，如果设置6，下载过程也正常，但是无法正常运行。</p><p><strong>注</strong> 不论固件下载软件的FLASH SIZE如何选择，固件下载过程都正常，只有上电运行的使用后才会提示不可用。因此还是推荐使用FLASH_DOWNLOAD_TOOLS_V3.6.3，正确选择FLASHSIZE就可以了。</p><p><em>另外，经过测试除SPI_SIZE_MAP&#x3D;0或1外，只要Makefile和固件下载软件的flash地址和flash size设置对应上就可以正确运行。推测原因是由于容量大的FLASH芯片地址兼容容量小的FLASH芯片地址，但是如果存储的.bin文件过大超过了地址范围可能会出问题，建议正确选择FLASH芯片容量。</em></p><p>最后，最坑的就是乐鑫官方提供的工具坑最多，对新手很不友好。对了官方的lubuntu系统编译按照官方<a href="https://www.espressif.com/sites/default/files/documentation/2a-esp8266-sdk_getting_started_guide_cn.pdf">2a-esp8266-sdk_getting_started_guide_cn.pdf</a>提示操作即可，注意给SDK文件夹授权，出问题的主要原因还是在后边的固件下载工具上,不在单独写了。</p><pre class=" language-linux"><code class="language-linux">文件夹授权命令chmod -R 777 文件地址</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> ESP8266 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ESP8266 </tag>
+            
+            <tag> 硬件编程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ESP8266 固件下载以及 lua 电灯程序测试</title>
+      <link href="/2022/08/2520574.html"/>
+      <url>/2022/08/2520574.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="ESP8266固件下载及lua点灯程序测试"><a href="#ESP8266固件下载及lua点灯程序测试" class="headerlink" title="ESP8266固件下载及lua点灯程序测试"></a>ESP8266固件下载及lua点灯程序测试</h1><h2 id="一、固件下载"><a href="#一、固件下载" class="headerlink" title="一、固件下载"></a>一、固件下载</h2><p>资料准备：固件文件和下载工具</p><blockquote><p>固件文件：1.nodemcu_float_0.9.6-dev_20150704.bin</p><p>​                  2.nodemcu_integer_0.9.6-dev_20150704.bin</p><p>​                  3.nodemcu-firmware_v20150213.6.bin</p></blockquote><p>固件文件构建基本开发环境，决定使用不同的开发语言进行开发。</p><blockquote><p>下载工具：nodemcu-flasher-master\Win64\Release\ESP8266Flasher.exe</p></blockquote><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073961f4021.jpeg" alt="固件准备.jpeg"></p><p><img src="http://ezblog.gnway.cc/i/2022/08/25/630739846e050.jpeg" alt="固件下载.jpeg"></p><p><img src="http://ezblog.gnway.cc/i/2022/08/25/630739cb2e1ce.png" alt="固件参数设置.png"></p><h2 id="二、ESPlorer"><a href="#二、ESPlorer" class="headerlink" title="二、ESPlorer"></a>二、ESPlorer</h2><p>ESPlorer需要JDK8u251环境经实验jdk8u291和jdk17都不能运行，且安装jdk8u251后要将其余JDK卸载干净否则仍不能运行。</p><p><img src="http://ezblog.gnway.cc/i/2022/08/25/630739ed9956d.jpeg" alt="lua代码编译上传.jpeg"></p><p>ESPlorer是执行lua代码的工具上传速度较快，可以直接控制GPIO等操作。</p><h2 id="三、ESP8266-LUAloader"><a href="#三、ESP8266-LUAloader" class="headerlink" title="三、ESP8266 LUAloader"></a>三、ESP8266 LUAloader</h2><p>ESP8266 LUAloader 是可视化的lua工具，能够通过软件界面直接设置gpio的高低电平，还可以设置wifi连接，同时可以上传lua代码。</p><p><strong>ps：</strong> 手中的esp8266板子控制灯的gpio是gpio2而不是电路图中的gpio0。设置gpio代号为4而不是0.</p><h2 id="四、固件区分"><a href="#四、固件区分" class="headerlink" title="四、固件区分"></a>四、固件区分</h2><p>H:\脑洞产品\5.ESP8266学习\6.学习资料整理\1.文档\3.固件\固件\ESP8266原安信可固件\v1.3.0.2 AT Firmware.bin是安信可的AT固件可以执行AT指令，通信波特率为115200。可以使用ESPlorer和ESP8266调试工具V2.2对应下面的固件好使的.exe通过AT指令控制。</p><p>H:\脑洞产品\5.ESP8266学习\6.学习资料整理\1.文档\3.固件\固件\Nodemcu官方固件\nodemcu_float_0.9.6-dev_20150704.bin和nodemcu_integer_0.9.6-dev_20150704.bin固件可以使用lua脚本，通信波特率9600不能使用AT指令。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> ESP8266 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ESP8266 </tag>
+            
+            <tag> 硬件编程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>vscode 安装 ESP8266 开发环境</title>
+      <link href="/2022/08/2534083.html"/>
+      <url>/2022/08/2534083.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="vscode开发esp8266环境配置"><a href="#vscode开发esp8266环境配置" class="headerlink" title="vscode开发esp8266环境配置"></a>vscode开发esp8266环境配置</h1><h2 id="一、安装VSCODE"><a href="#一、安装VSCODE" class="headerlink" title="一、安装VSCODE"></a>一、安装VSCODE</h2><h2 id="二、安装VScode-arduino插件"><a href="#二、安装VScode-arduino插件" class="headerlink" title="二、安装VScode-arduino插件"></a>二、安装VScode-arduino插件</h2><!--![安装arduino插件](%E5%AE%89%E8%A3%85arduino%E6%8F%92%E4%BB%B6.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073c441f4b0.jpeg" alt="安装arduino插件"></p><h2 id="三、配置arduino环境"><a href="#三、配置arduino环境" class="headerlink" title="三、配置arduino环境"></a>三、配置arduino环境</h2><p>在设置中搜索arduino，将Arduino：Path的值改成自己的arduino安装目录。</p><!--![arduino插件设置](arduino%E6%8F%92%E4%BB%B6%E8%AE%BE%E7%BD%AE.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073c8f5ec79.jpeg" alt="arduino插件设置"></p><h2 id="四、创建工程"><a href="#四、创建工程" class="headerlink" title="四、创建工程"></a>四、创建工程</h2><h3 id="1-创建一个文件夹"><a href="#1-创建一个文件夹" class="headerlink" title="1.创建一个文件夹"></a>1.创建一个文件夹</h3><h3 id="2-创建-ino文件"><a href="#2-创建-ino文件" class="headerlink" title="2.创建.ino文件"></a>2.创建.ino文件</h3><h3 id="3-修改配置"><a href="#3-修改配置" class="headerlink" title="3.修改配置"></a>3.修改配置</h3><p>在自己的目录下创建.ino文件或打开例程一般会自动创建.vscode文件夹，里面包括三个文件，分别是arduino.json、c_cpp_properties.json、setting.json。其中c_cpp_properties.json主要用来配置程序的引用，.ino文件中的include的头文件必须在c_cpp_properties.json中的includepath属性中配置</p><!--![c_cpp_properties文件配置](c_cpp_properties%E6%96%87%E4%BB%B6%E9%85%8D%E7%BD%AE.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073ce623cc4.jpeg" alt="c_cpp_properties文件配置"></p><p><strong>注：</strong>引用头文件后还可能报错，可以在setting中进行如下设置</p><!--![报错](%E6%8A%A5%E9%94%99.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073d136b3a4.jpeg" alt="报错"></p><!--![setting设置](setting%E8%AE%BE%E7%BD%AE.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073df002394.jpeg" alt="setting设置"></p><h3 id="4-编译上传"><a href="#4-编译上传" class="headerlink" title="4.编译上传"></a>4.编译上传</h3><p>在窗口右下角 点击<Select Board Type>选择板子类型和<Select Serial Port>选择串口</p><!--![选择板子和串口](%E9%80%89%E6%8B%A9%E6%9D%BF%E5%AD%90%E5%92%8C%E4%B8%B2%E5%8F%A3.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073e122433d.jpeg" alt="选择板子和串口"></p><p><strong>注：</strong> arduino插件0.4.6版本有bug进入<Select Board Type>后无法选择板子，改下载0.4.5版本重启后正常。</p><!--![选择板子](%E9%80%89%E6%8B%A9%E6%9D%BF%E5%AD%90.jpg)--><p><img src="http://ezblog.gnway.cc/i/2022/08/25/63073e2dd7c6e.jpeg" alt="选择板子"><br>根据自己的板子类型选择即可。</p><p>点击上传。</p><p><img src="/%E4%B8%8A%E4%BC%A0.jpg" alt="上传"></p><p><strong>注：</strong> 默认情况上传代吗的输出会显示乱码。</p><p><img src="/%E4%B9%B1%E7%A0%81.jpg" alt="乱码"></p><p>将文件C:\Users\ZXD.vscode\extensions\vsciot-vscode.vscode-arduino-0.4.5\out\src\common\util.js中的codepage行注释掉即可。</p><p><img src="/util%E6%B3%A8%E9%87%8A.jpg" alt="util注释"></p><p>重启vscode后输出正常。</p><p><img src="/%E6%AD%A3%E5%B8%B8%E8%BE%93%E5%87%BA.jpg" alt="正常输出"></p><p><strong>至此就可以正常使用vscode进行esp8266进行开发工作</strong></p><p>**PS:**关闭360能够显著提高编译速度</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> ESP8266 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ESP8266 </tag>
+            
+            <tag> 硬件编程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Arduino开发ESP8266环境配置</title>
+      <link href="/2022/08/2327333.html"/>
+      <url>/2022/08/2327333.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Arduino开发ESP8266环境配置"><a href="#Arduino开发ESP8266环境配置" class="headerlink" title="Arduino开发ESP8266环境配置"></a>Arduino开发ESP8266环境配置</h1><h2 id="一、添加-ESP8266-支持"><a href="#一、添加-ESP8266-支持" class="headerlink" title="一、添加 ESP8266 支持"></a>一、添加 ESP8266 支持</h2><p>首先从 <a href="https://www.arduino.cc/en/main/software">Arduino 官网</a> 下载最新版本的 <strong>Arduino IDE</strong> 软件并安装。<br> 安装完成以后，进入<strong>首选项</strong>（Preferences），找到<strong>附加开发板管理器地址</strong>（Additional Board Manager URLs），并在其后添加如下信息：<br> <code>http://arduino.esp8266.com/stable/package_esp8266com_index.json</code></p><p><img src="http://ezblog.gnway.cc/i/2022/08/23/6304a2ed3cb98.png"></p><p>之后点击<strong>工具</strong> - <strong>开发板</strong> - <strong>开发板管理器</strong>，进入开发板管理器界面：</p><p><img src="http://ezblog.gnway.cc/i/2022/08/23/6304a336832f3.png"></p><h2 id="二、找到-esp8266-并安装："><a href="#二、找到-esp8266-并安装：" class="headerlink" title="二、找到 esp8266 并安装："></a>二、找到 <em>esp8266</em> 并安装：</h2><p><img src="http://ezblog.gnway.cc/i/2022/08/23/6304a37033daf.png"></p><p>这里安装ESP8266需通过GitHub网络问题可能安装不成功。</p><p>安装完成后，重启 Arduino IDE 软件。在<strong>工具</strong> - <strong>开发板</strong>选项中即会看到 ESP8266 开发板的选项：</p><p><img src="http://ezblog.gnway.cc/i/2022/08/23/6304a3a5ca113.png"></p><h2 id="三、代码开发"><a href="#三、代码开发" class="headerlink" title="三、代码开发"></a>三、代码开发</h2><p><strong>注意事项</strong></p><p>例程程代码和实际开发板对应的引脚不一样，需找打对应的规则。如图：例程中D1对应8266开发板的GPIO 5对应数字是5</p><p><img src="http://ezblog.gnway.cc/i/2022/08/23/6304a3d194fd6.png"></p><h2 id="四、编译上传"><a href="#四、编译上传" class="headerlink" title="四、编译上传"></a>四、编译上传</h2><p><img src="http://ezblog.gnway.cc/i/2022/08/23/6304a40339b9b.jpeg"></p><p>1是编译、2是上传</p><p><strong>上传是需先将开发板重启然后按住FLASH等待出现connect字样后松开FLASH按键</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 硬件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ESP8266 </tag>
+            
+            <tag> 硬件编程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ipad编程软件code的使用方法——特别是git同步问题</title>
+      <link href="/2022/08/0434694.html"/>
+      <url>/2022/08/0434694.html</url>
+      
+        <content type="html"><![CDATA[<!-- ---title: 基于Hexo的hexo-theme-matery主题搭建博客并优化date: 2019-10-03 14:25:00author: 悟尘img: /source/images/xxx.jpgtop: truecover: truecoverImg: /images/1.jpgpassword: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92toc: falsemathjax: falsesummary: 这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要categories: 工具tags:  - blog  - hexo---标题行示例--><h1 id="iPad-code-app-使用"><a href="#iPad-code-app-使用" class="headerlink" title="iPad code app 使用"></a>iPad code app 使用</h1><h2 id="在-ipad-上进行编程可以使用-code-APP"><a href="#在-ipad-上进行编程可以使用-code-APP" class="headerlink" title="在 ipad 上进行编程可以使用 code APP"></a>在 ipad 上进行编程可以使用 code APP</h2><p><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb08bad3c8.png" alt="IMG_0216.png"><br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb3006912b.png" alt="IMG_0217.png"><br>    该软件支持 python、javascprits、html、c 等编程语言。</p><h2 id="code-使用过程的一些问题"><a href="#code-使用过程的一些问题" class="headerlink" title="code 使用过程的一些问题"></a>code 使用过程的一些问题</h2><h3 id="1-新建文件是不可以在命名前文件类型，因为先点选文件类型的话会自动创建-1-个-default-名字的文件。"><a href="#1-新建文件是不可以在命名前文件类型，因为先点选文件类型的话会自动创建-1-个-default-名字的文件。" class="headerlink" title="1.新建文件是不可以在命名前文件类型，因为先点选文件类型的话会自动创建 1 个 default 名字的文件。"></a>1.新建文件是不可以在命名前文件类型，因为先点选文件类型的话会自动创建 1 个 default 名字的文件。</h3><p><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb31c9520e.png" alt="IMG_0218.png"></p><h3 id="2-不能使用蓝牙鼠标进行多选，有时可以。"><a href="#2-不能使用蓝牙鼠标进行多选，有时可以。" class="headerlink" title="2.不能使用蓝牙鼠标进行多选，有时可以。"></a>2.不能使用蓝牙鼠标进行多选，有时可以。</h3><h3 id="3-从-GitHub-克隆文件仓库"><a href="#3-从-GitHub-克隆文件仓库" class="headerlink" title="3.从 GitHub 克隆文件仓库"></a>3.从 GitHub 克隆文件仓库</h3><pre><code>为了能够与 GitHub 进行同步，首先要在 GitHub 建立文件仓库 ，然后将文件仓库克隆到本地。</code></pre><p><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb37872c77.png" alt="IMG_0233.png"><br>    将文件库克隆到本地后，为了能够成功的 commit 、push、fetch，所以要在设置中的版本控制中添加作者身份和凭据。<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb39c3378d.png" alt="IMG_0232.png"><br>    作者身份根据需要自己添加，凭据中添加 GitHub 账号和 GitHub 个人访问令牌。<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb3bc366b3.png" alt="IMG_0231.png"></p><h3 id="4-code-提交-commit-的问题"><a href="#4-code-提交-commit-的问题" class="headerlink" title="4.code 提交 commit 的问题"></a>4.code 提交 commit 的问题</h3><p><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb3dc97699.png" alt="IMG_0234.png"><br>    code app 可以通过远吗管理功能将代码上传到 GitHub 进行版本控制。<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcba697489f.png" alt="IMG_0221.png"><br>    文件发生修改后，在源码管理页面的变更栏中会显示发生变化的文件，此时点击”+”，提交变更，<br>    会提示变更已经缓存。这时变更仅在本地缓存，随时可以撤销，要在上边的文本框中输入本次的更改注释，用来解释本次修改了哪些地方。<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcba697489f.png" alt="IMG_0221.png"></p><blockquote><p>注意 code app 更改注释不可以为空，否层将不能提交缓存。右下角会提示 commit can not be empty.<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcbe7d8e683.png" alt="IMG_0222.png"><br>    输入 commit 的注释后点击文本框下边的对号会提示 commit succeed，表示 commit 成功。</p></blockquote><h3 id="5-code-的-push-问题"><a href="#5-code-的-push-问题" class="headerlink" title="5.code 的 push 问题"></a>5.code 的 push 问题</h3><pre><code>提交缓存之后点击文本文本框下边的三个点可以看到 push 和 fetch 按钮。</code></pre><p><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcbe9dbeea8.png" alt="IMG_0224.png"></p><blockquote><p>注意如果设置中的凭据设置错误将会提示 too many redirects or authentication replays。<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcbecebd738.png" alt="IMG_0229.png"></p></blockquote><h3 id="6-code-app-的fetch-问题"><a href="#6-code-app-的fetch-问题" class="headerlink" title="6.code app 的fetch 问题"></a>6.code app 的fetch 问题</h3><p>为了同步本地和 GitHub 仓库的文件，在更改本地文件前首先使用 fetch 将 GitHub远端的文件拉到本地。成功后提示 fetch succeed。<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcbe9dbeea8.png" alt="IMG_0224.png"><br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcbf14966fb.png" alt="IMG_0226.png"><br>    当成功将文件复制到本地后，长按界面左下角的 master，会弹出 checkout detached 界面。<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcb3dc97699.png" alt="IMG_0234.png"><br>    成功后再次点击 checkout detached 页面的 origin&#x2F;master 分支就可以了。<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcbf7b8cd44.png" alt="IMG_0228.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> ipad编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 编程 </tag>
+            
+            <tag> ipad </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>使用github搭建免费的个人博客网站</title>
+      <link href="/2022/08/019163.html"/>
+      <url>/2022/08/019163.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="GitHub-搭建个人免费博客网站"><a href="#GitHub-搭建个人免费博客网站" class="headerlink" title="GitHub 搭建个人免费博客网站"></a>GitHub 搭建个人免费博客网站</h1><h2 id="第一-步-创建-New-repository"><a href="#第一-步-创建-New-repository" class="headerlink" title="第一 步 创建 New repository"></a>第一 步 创建 New repository</h2><p><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcf0769b779.jpeg"></p><h2 id="第二步-在-Repository-name-中输入网站的名字要使用-Owner-的小写。"><a href="#第二步-在-Repository-name-中输入网站的名字要使用-Owner-的小写。" class="headerlink" title="第二步 在 Repository name 中输入网站的名字要使用 Owner 的小写。"></a>第二步 在 Repository name 中输入网站的名字要使用 Owner 的小写。</h2><p><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcf0be27891.png"><br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcf1165ee16.png"><br>能看出来 Owner 的小写是一个特殊的仓库。成功后通过 <a href="https://zhangxd123456.github.io/">https://zhangxd123456.github.io</a> 可以访问自己的博客。目前还不可以，通过该地址访问提示 404 。</p><hr><blockquote><p>ps:这里注意，命名的时候应当是 zhangxd123456.github.io 而不是 zhangxd123456，如果命名错了可以从下图的位置修改，setting-&gt;General-&gt;Repository name<br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcf15e7e455.png"><br><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcf2c2a9705.png"></p></blockquote><hr><blockquote><p>ps：如果命名时没有按照规则比如命名为 zblog，输入网址 <a href="https://zblog.github.io/">https://zblog.github.io</a> 网址会跳转黄色网站。</p></blockquote><h2 id="第三步-初始化网站，在仓库-setting-属性中选择-pages-标签页初始化网站。初始化完成后地址变成了-https-zhangxd123456-github-io-zhangxd123456-，很奇怪。"><a href="#第三步-初始化网站，在仓库-setting-属性中选择-pages-标签页初始化网站。初始化完成后地址变成了-https-zhangxd123456-github-io-zhangxd123456-，很奇怪。" class="headerlink" title="第三步 初始化网站，在仓库 setting 属性中选择 pages 标签页初始化网站。初始化完成后地址变成了 https://zhangxd123456.github.io/zhangxd123456/，很奇怪。"></a>第三步 初始化网站，在仓库 setting 属性中选择 pages 标签页初始化网站。初始化完成后地址变成了 <a href="https://zhangxd123456.github.io/zhangxd123456/%EF%BC%8C%E5%BE%88%E5%A5%87%E6%80%AA%E3%80%82">https://zhangxd123456.github.io/zhangxd123456/，很奇怪。</a></h2><h2 id=""><a href="#" class="headerlink" title=""></a><img src="http://ezblog.gnway.cc/i/2022/08/17/62fcf30809659.png"></h2><blockquote><p>注意：在命名 repository 名字的时候注意时 owner 小写+github.io。如果仅用 owner 小写则登陆地址将变为 <a href="https://owner/">https://owner</a> 小写.github.io&#x2F;owner 小写&#x2F;</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> ipad编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 编程 </tag>
+            
+            <tag> ipad </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
